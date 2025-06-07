@@ -1,0 +1,631 @@
+<?php $currentPage = 'accueil'; ?>
+<!DOCTYPE html>
+<html lang="en">
+    <?php include('./include/header.php'); ?>
+    </head>
+
+    <body>
+        <?php include('./include/navbar.php'); ?>
+        
+
+
+        <!-- Carousel Start -->
+<div class="carousel">
+    <div class="container-fluid">
+        <div class="owl-carousel">
+            <div class="carousel-item">
+                <div class="carousel-img">
+                    <img src="img_absa/img (23).jpg" alt="Sensibilisation en milieu scolaire">
+                </div>
+                <div class="carousel-text">
+                    <h1>Sensibilisation en milieu scolaire</h1>
+                    <p>
+                        ABSA travaille avec des enseignants pour faciliter l'intégration des élèves sourds dans les écoles ordinaires.
+                    </p>
+                    <div class="carousel-btn">
+                        <a class="btn btn-custom" href="service.php">En savoir plus</a>
+                        <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Regarder la vidéo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img">
+                    <img src="img/asba banner.jpg" alt="Distribution de matériel scolaire">
+                </div>
+                <div class="carousel-text">
+                    <h1>Distribution de matériel scolaire</h1>
+                    <p>
+                        Grâce à nos partenaires, nous avons pu fournir du matériel scolaire à plus de 4200 enfants sourds.
+                    </p>
+                    <div class="carousel-btn">
+                        <a class="btn btn-custom" href="#activites">En savoir plus</a>
+                        <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Regarder la vidéo</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-img">
+                    <img src="img_absa/im (4).jpg" alt="Ateliers de sensibilisation à la santé">
+                </div>
+                <div class="carousel-text">
+                    <h1>Ateliers de sensibilisation à la santé</h1>
+                    <p>
+                        Nous organisons des ateliers pour éduquer les enfants et adolescents sourds sur l'hygiène, la santé et la prévention.
+                    </p>
+                    <div class="carousel-btn">
+                        <a class="btn btn-custom" href="#activites">En savoir plus</a>
+                        <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Regarder la vidéo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Carousel End -->
+
+
+        <!-- Video Modal Start-->
+        <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>        
+                        <!-- 16:9 aspect ratio -->
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <!-- Video Modal End -->
+        
+
+        <!-- About Start -->
+<div class="about">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="about-img" data-parallax="scroll" data-image-src="img_absa/1.jpg"></div>
+            </div>
+            <div class="col-lg-6">
+                <div class="section-header">
+                    <p>À Propos de Nous</p>
+                    <h2>Association Bouche des Sourds d’Afrique (ABSA)</h2>
+                </div>
+                <div class="about-tab">
+                    <ul class="nav nav-pills nav-justified">
+                        <li class="nav-item">
+                            <a class="nav-link active" data-toggle="pill" href="#tab-content-1">À Propos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#tab-content-2">Mission</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-toggle="pill" href="#tab-content-3">Vision</a>
+                        </li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="tab-content-1" class="container tab-pane active">
+                            <p>L'Association Bouche des Sourds d’Afrique (ABSA) a été fondée en 2007 par de jeunes volontaires à Obala, Cameroun, et légalement reconnue en 2010. Nous travaillons activement pour réduire l'exclusion et la marginalisation des personnes sourdes dans la société et pour les intégrer pleinement.</p>
+                        </div>
+                        <div id="tab-content-2" class="container tab-pane fade">
+                            <p>Notre mission est de sensibiliser la population sur la condition des personnes sourdes et de lutter contre les préjugés tels que leur incapacité a avoir unraisonnement logique , fréquenter , travailler . Situation qui découle d'apres les préjugés de la « malédiction ancestrale ou divine , des mauvais sorts ou des pactes avec le diable » . Nous visons à offrir un cadre famillial accuillant , un accès équitable à l'éducation, à l'emploi , aux soins de santé et a l'information pour les personnes sourdes au sein de la société.</p>
+                        </div>
+                        <div id="tab-content-3" class="container tab-pane fade">
+                            <p>Notre vision est de créer une société inclusive où les personnes sourdes peuvent vivre sans discrimination. Nous aspirons à développer des opportunités de formation et d'acces aux emplois décents pour les personnes sourdes, à construire et soutenir des écoles spécialisées et inclusives, et à assurer un accompagnement psychologique et matériel continu pour les sourds et leurs familles.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+
+
+
+        <!-- Service Start -->
+<div class="service">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Nos Actions</p>
+            <h2>Nous croyons que nous pouvons améliorer des vies avec votre aide</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item" data-aos="zoom-out" data-aos-duration="1000" data-aos-once="false">
+                    <div class="service-icon">
+                        <i class="flaticon-social-care"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Cours de Langue des Signes</h3>
+                        <p>Nous offrons des cours de langue des signes pour permettre une meilleure communication entre les personnes sourdes et entendants normaux.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item"data-aos="zoom-out" data-aos-duration="1000" data-aos-once="false">
+                    <div class="service-icon">
+                        <i class="flaticon-education"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Éducation</h3>
+                        <p>Nous accompagnons les structures éducatives et d'encadrement des sourds dans leurs missions pour une meilleure formation et insertion sociale des enfants sourds.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item"data-aos="zoom-out" data-aos-duration="1000" data-aos-once="false">
+                    <div class="service-icon">
+                        <i class="flaticon-healthcare"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Soins de Santé</h3>
+                        <p>Nous oeuvrons pour l'accès aux soins de santé  des personnes sourdes, en promouvant des consultations médicales adaptées avec des services de traduction en langue des signes. Nous organison également des campagnes de sensibilisation de formation en santé sexuelle et reproductive et a l'hygienne de vie pour les personnes sourdes. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item"data-aos="zoom-out" data-aos-duration="1000" data-aos-once="false">
+                    <div class="service-icon">
+                        <i class="flaticon-kindness"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Conseils et Accompagnement</h3>
+                        <p>Nous apportons un soutien psychologique et des conseils aux personnes sourdes ainsi qu'a leurs familles afin de les aider à surmonter les défis quotidiens auxquels ils sont confrontés et d'adopter des attitudes positives.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item"data-aos="zoom-out" data-aos-duration="1000" data-aos-once="false">
+                    <div class="service-icon">
+                        <i class="flaticon-donation"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Formation et Emploi</h3>
+                        <p>Nous organisons des programmes de formation professionnelle et d'accompagnement a la recherche et la création d'emplois en faveur des personnes sourdes.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-item"data-aos="zoom-out" data-aos-duration="1000" data-aos-once="false">
+                    <div class="service-icon">
+                        <i class="flaticon-charity"></i>
+                    </div>
+                    <div class="service-text">
+                        <h3>Sensibilisation et Plaidoyer</h3>
+                        <p>Nous menons des actions de sensibilisation et de plaidoyer pour promouvoir les droits des personnes sourdes dans tous les aspects de la vie sociale afin de lutter contre tous les préjugés et discriminations dévellopés a l'endroit des sourds et parvenir a leur intégration harmonieuse au sein de la société.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+
+        
+        
+        <!-- Facts Start -->
+        <div class="facts" data-parallax="scroll" data-image-src="img/avel-chuklanov-9cx4-QowgLc-unsplash.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-home"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">10</h3>
+                                <p>Zone d'intervention</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-charity"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-plus" data-toggle="counter-up">62</h3>
+                                <p>volontaire</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-kindness"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-number" data-toggle="counter-up">106.000000</h3>
+                                <span>FCFA</span>
+                                <p>Objectif</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="facts-item">
+                            <i class="flaticon-donation"></i>
+                            <div class="facts-text">
+                                <h3 class="facts-number" data-toggle="counter-up">21.000000</h3>
+                                <span>FCFA</span>
+                                <p>Récoltés</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+        
+       
+
+<!-- Event Start -->
+<div class="event">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Événements à venir</p>
+            <h2>Préparez-vous pour nos prochains événements caritatifs</h2>
+        </div>
+        <div class="row"data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
+            <div class="col-lg-6">
+                <div class="event-item">
+                    <img src="img_absa/img (17).jpg" alt="Image">
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <p><i class="fa fa-calendar-alt"></i>01-Janv-45</p>
+                            <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                            <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                        </div>
+                        <div class="event-text">
+                            <h3>Atelier de sensibilisation</h3>
+                            <p>
+                                Participez à notre atelier pour en savoir plus sur les défis auxquels font face les personnes sourdes et muettes et comment vous pouvez aider. Cet événement est une occasion de sensibiliser et de créer des opportunités de soutien.
+                            </p>
+                            <!-- <a class="btn btn-custom" href="volunteer.php">Rejoindre maintenant</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="event-item">
+                    <img src="img_absa/img (12).jpg" alt="Image">
+                    <div class="event-content">
+                        <div class="event-meta">
+                            <p><i class="fa fa-calendar-alt"></i>01-Janv-45</p>
+                            <p><i class="far fa-clock"></i>8:00 - 10:00</p>
+                            <p><i class="fa fa-map-marker-alt"></i>New York</p>
+                        </div>
+                        <div class="event-text">
+                            <h3>Événement de collecte de fonds</h3>
+                            <p>
+                                Joignez-vous à nous pour un événement spécial visant à recueillir des fonds pour les personnes sourdes et muettes. Votre participation contribuera à financer nos projets et à améliorer la qualité de vie des bénéficiaires.
+                            </p>
+                            <!-- <a class="btn btn-custom" href="volunteer.php">Rejoindre maintenant</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="see-more-container">
+        <button class="btn-see-more"><a href="event.php">Voir Plus</a></button>
+    </div>
+    
+</div>
+<!-- Event End -->
+
+ <!-- Donate Start -->
+ <div class="donate" data-parallax="scroll" data-image-src="img_absa/img (10).jpg">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-7">
+                <div class="donate-content">
+                    <div class="section-header">
+                        <p>Faites un don maintenant</p>
+                        <h2>Contribuons à améliorer la vie des personnes dans le besoin</h2>
+                    </div>
+                    <div class="donate-text">
+                        <p>
+                            Votre soutien est crucial pour aider les personnes sourdes à avoir une vie épanouie. Avec votre don, nous pourrons fournir des ressources essentielles, des équipements adaptés et des services d'accompagnement pour favoriser leur intégration sociale et professionnelle.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="donate-form"data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false">
+                    <form id="donationForm" data-form-type="donation" onsubmit="sendMail('#donationForm', event); return false;">
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="donate_nom" placeholder="Nom" required="required" />
+                        </div>
+                        <div class="control-group">
+                            <input type="email" class="form-control" id="donate_email" placeholder="Email" required="required" />
+                        </div>
+                        <div class="control-group">
+                            <input type="number" class="form-control" id="donate_numero" placeholder="Numéro de téléphone" required="required" />
+                        </div>
+                        <div class="control-group">
+                            <input type="number" class="form-control" id="donate_montant" placeholder="Montant en FCFA" required="required" />
+                        </div>
+                        <div>
+                            <button class="btn btn-custom" type="submit">Faire un don maintenant</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Donate End -->
+
+
+        <!-- Partners Section Start -->
+    <div class="partners-section">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Nos Partenaires</h2>
+                <h2>Des institutions exceptionnelles qui collaborent avec nous</p>
+            </div>
+            
+            <div class="partners-grid" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="false">
+                <div class="partner-item">
+                    <div class="partner-img">
+                        <img src="img_absa/img (5).jpg" alt="École Supérieure de Commerce">
+                    </div>
+                    <div class="partner-text">
+                        <h3>École spécialisée pour enfants déficients auditifs de Yaoundé (ESEDA)</h3>
+                        <p>Une institution réputée pour ses programmes d'intégration.</p>
+                        <div class="partner-contact">contact@esc.com</div>
+                    </div>
+                </div>
+                <div class="partner-item">
+                    <div class="partner-img">
+                        <img src="img_absa/img (7).jpg" alt="Institut de Technologie">
+                    </div>
+                    <div class="partner-text">
+                        <h3>École des déficients auditifs de Ndiki (EDAN)</h3>
+                        <p>Fournit une formation avancée en ingénierie et technologie.</p>
+                        <div class="partner-contact">contact@tech-institute.com</div>
+                    </div>
+                </div>
+                
+                <div class="partner-item">
+                    <div class="partner-img">
+                        <img src="img_absa/im (1).jpg" alt="Université des Sciences">
+                    </div>
+                    <div class="partner-text">
+                        <h3>Institut missionnaire et social des jeunes handicapés / Eseka </h3>
+                        <p>Spécialisée dans la recherche et l'enseignement en sciences.</p>
+                        <div class="partner-contact">contact@univ-sciences.com</div>
+                    </div>
+                </div>
+                
+                <!-- Ajoutez d'autres partenaires ici -->
+            </div>
+        </div>
+        <div class="see-more-container">
+            <button class="btn-see-more"><a href="partenaire.php">Voir Plus</a></button>
+        </div>
+    </div>
+   
+        
+        
+       <!-- Volunteer Start -->
+<div class="volunteer" data-parallax="scroll" data-image-src="img_absa/img (10).jpg">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5">
+                <div class="volunteer-form" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="false">
+                    <form id="volontaireForm" data-form-type="volontaire" onsubmit="sendMail('#volontaireForm', event); return false;">
+                        <div class="control-group">
+                            <input type="text" class="form-control" id="volontaire_nom" placeholder="Nom" required="required" />
+                        </div>
+                        <div class="control-group">
+                            <input type="email" class="form-control" id="volontaire_email" placeholder="Email" required="required" />
+                        </div>
+                        <div class="control-group">
+                            <input type="number" class="form-control" id="volontaire_numero" placeholder="Numéro" required="required" />
+                        </div>
+                        <div class="control-group">
+                            <textarea class="form-control" id="volontaire_message" placeholder="Pourquoi souhaitez-vous devenir bénévole?" required="required"></textarea>
+                        </div>
+                        <div>
+                            <button class="btn btn-custom" type="submit">Devenir bénévole</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="volunteer-content">
+                    <div class="section-header">
+                        <p>Devenir Bénévole</p>
+                        <h2>Faisons une différence dans la vie des autres</h2>
+                    </div>
+                    <div class="volunteer-text">
+                        <p>
+                            Rejoignez ABSA et contribuez à améliorer la vie des personnes sourdes en Afrique. En tant que bénévole, vous aurez l'opportunité de soutenir nos projets éducatifs , de santé , de sensibilisation et d'intégration professionnelle, tout en apportant une aide précieuse à ceux qui en ont besoin. Ensemble, nous pouvons créer un environnement inclusif où chacun a la possibilité de s'épanouir et de vivre pleinement. Chaque geste compte, et votre engagement peut faire la différence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Volunteer End -->
+
+        
+        
+        <!-- Témoignages Début -->
+<div class="testimonial">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Témoignages</p>
+            <h2>Ce que les gens disent de nos activités caritatives</h2>
+        </div>
+        <div class="owl-carousel testimonials-carousel">
+            <div class="testimonial-item">
+                <div class="testimonial-profile">
+                    <img src="img/user (2).png" alt="Image">
+                    <div class="testimonial-name">
+                        <h3>Nom de la Personne</h3>
+                        <p>Profession</p>
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    <p>
+                        Grâce à cette association, j'ai trouvé un soutien précieux pour mes besoins quotidiens. Leur engagement et leur compassion font une réelle différence.
+                    </p>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-profile">
+                    <img src="img/user (2).png" alt="Image">
+                    <div class="testimonial-name">
+                        <h3>Nom de la Personne</h3>
+                        <p>Profession</p>
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    <p>
+                        L'aide apportée par cette association a transformé ma vie. Leur dévouement à aider les personnes sourdes-muettes est vraiment admirable.
+                    </p>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-profile">
+                    <img src="img/user (2).png" alt="Image">
+                    <div class="testimonial-name">
+                        <h3>Nom de la Personne</h3>
+                        <p>Profession</p>
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    <p>
+                        Les services offerts par cette organisation sont excellents. Ils ont fourni des ressources et un soutien précieux dans mon quotidien.
+                    </p>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-profile">
+                    <img src="img/user (2).png" alt="Image">
+                    <div class="testimonial-name">
+                        <h3>Nom de la Personne</h3>
+                        <p>Profession</p>
+                    </div>
+                </div>
+                <div class="testimonial-text">
+                    <p>
+                        Cette association a changé ma vie en offrant un soutien indispensable. Leur engagement envers les personnes sourdes-muettes est remarquable.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Témoignages Fin -->
+
+
+<!-- Contact Début -->
+<div class="contact">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Contactez-nous</p>
+            <h2>Une préoccupation ? laissez nous un message</h2>
+        </div>
+        <div class="contact-img">
+            <img src="img/asba banner.jpg" alt="Image">
+        </div>
+        <div class="contact-form">
+            <div id="success"></div>
+            <form id="contactForm" data-form-type="contact" onsubmit="sendMail('#contactForm', event); return false;">
+                <div class="control-group">
+                    <input type="text" class="form-control" id="name" placeholder="Votre Nom" required="required" data-validation-required-message="Veuillez entrer votre nom" />
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                    <input type="email" class="form-control" id="email" placeholder="Votre Email" required="required" data-validation-required-message="Veuillez entrer votre email" />
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                    <input type="number" class="form-control" id="numero" placeholder="Votre Numéro" required="required" data-validation-required-message="Veuillez entrer votre numero" />
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                    <input type="text" class="form-control" id="subject" placeholder="Sujet" required="required" data-validation-required-message="Veuillez entrer un sujet" />
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div class="control-group">
+                    <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Veuillez entrer votre message"></textarea>
+                    <p class="help-block text-danger"></p>
+                </div>
+                <div>
+                    <button class="btn btn-custom" type="submit" id="sendMessageButton">Envoyer le Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<!-- Contact Fin -->
+
+
+<!-- Blog Début -->
+<div class="blog">
+    <div class="container">
+        <div class="section-header text-center">
+            <p>Réalisations</p>
+            <h2>Découvrez ce que nous accomplissons pour changer des vies</h2>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="img_absa/img (13).jpg" alt="Image">
+                    </div>
+                    <div class="blog-text">
+                        <h3><a href="#">Soutien et Assistance pour les Sourds</a></h3>
+                        <p>
+                            Découvrez les initiatives récentes de notre association pour améliorer la vie des personnes sourdes-muettes. Nos projets récents apportent un soutien essentiel.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="img_absa/img (3).jpg" alt="Image">
+                    </div>
+                    <div class="blog-text">
+                        <h3><a href="#">Installation de panneaux solaire</a></h3>
+                        <p>
+                            Lisez les derniers articles sur nos projets et initiatives. Nous travaillons dur pour offrir des solutions adaptées aux besoins des personnes sourdes-muettes.
+                        </p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="blog-item">
+                    <div class="blog-img">
+                        <img src="img_absa/im (2).jpg" alt="Image">
+                    </div>
+                    <div class="blog-text">
+                        <h3><a href="#">Événements et Activités</a></h3>
+                        <p>
+                            Restez informé sur les événements et activités organisés par notre association. Nous vous invitons à participer et à soutenir nos causes.
+                        </p>
+                    </div>
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="see-more-container">
+        <button class="btn-see-more"><a href="service.php">Voir Plus</a></button>
+    </div>
+</div>
+<!-- Blog Fin -->
+
+
+        <?php include('./include/footer.php'); ?>
+    </body>
+</html>

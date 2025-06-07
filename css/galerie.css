@@ -1,0 +1,283 @@
+/* ==============================================
+   Section Galerie
+   ============================================== */
+#galerie {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  padding: 5rem 0;
+}
+
+/* ---------- En-tête de section ---------- */
+.section-header {
+  position: relative;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.section-header::before {
+  content: "";
+  position: absolute;
+  top: -1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 4px;
+  background: linear-gradient(45deg, #007bff, #ffc107);
+  border-radius: 2px;
+  opacity: 0.8;
+}
+.section-header p {
+  font-size: 1.1rem;
+  color: #6c757d;
+  font-weight: 500;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.section-header h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
+.section-header h2 .text-primary-gradient {
+  background: linear-gradient(45deg, #007bff, #28a745);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-header h2 .text-accent-gradient {
+  background: linear-gradient(45deg, #dc3545, #fd7e14);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.section-header .lead {
+  font-size: 1.1rem;
+  color: #6c757d;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* ---------- Filtres ---------- */
+.filter-container {
+  display: inline-flex;
+  background: #fff;
+  padding: 8px;
+  border-radius: 50px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+  border: 1px solid rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+.filter-btn {
+  padding: 12px 24px;
+  margin: 0 4px;
+  border: none;
+  border-radius: 25px;
+  background: transparent;
+  color: #6c757d;
+  font-weight: 600;
+  font-size: .9rem;
+  transition: all .3s ease;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  display: flex;
+  align-items: center;
+}
+.filter-btn i {
+  margin-right: .5rem;
+}
+.filter-btn.active {
+  background: linear-gradient(45deg, #007bff, #0056b3) !important;
+  color: #fff !important;
+  box-shadow: 0 4px 15px rgba(0,123,255,0.3) !important;
+}
+.filter-btn:hover:not(.active) {
+  background: linear-gradient(45deg, #f8f9fa, #e9ecef) !important;
+  color: #007bff !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* ==============================================
+   Grille & Animations
+   ============================================== */
+.grid {
+  margin: 0 -15px;
+}
+.grid-item {
+  padding: 15px;
+  opacity: 0;
+  transform: translateY(30px);
+  animation: fadeInUp 0.6s ease forwards;
+}
+.grid-item:nth-child(1) { animation-delay: .1s; }
+.grid-item:nth-child(2) { animation-delay: .2s; }
+.grid-item:nth-child(3) { animation-delay: .3s; }
+/* etc. (tu peux étendre jusqu’à 10 ou plus) */
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ==============================================
+   Carte Média (photo & vidéo)
+   ============================================== */
+.media-item {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  transition: all .4s ease;
+  cursor: pointer;
+  border: 1px solid rgba(0,0,0,0.05);
+}
+.media-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+/* Image / Vidéo */
+.media-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  transition: transform .4s ease;
+}
+.media-item img:hover {
+  transform: scale(1.1);
+}
+
+/* Overlay play / expand */
+.media-item .overlay {
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: linear-gradient(45deg, rgba(0,123,255,0.8), rgba(40,167,69,0.8));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: all .3s ease;
+}
+.media-item:hover .overlay {
+  opacity: 1;
+}
+.media-item .overlay .icon-circle {
+  width: 70px;
+  height: 70px;
+  background: rgba(255,255,255,0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(.8);
+  transition: transform .3s ease;
+}
+.media-item .overlay .icon-circle:hover {
+  transform: scale(1);
+}
+
+/* Badge (Photo / Vidéo) */
+.media-item .badge-type {
+  position: absolute;
+  top: 15px; right: 15px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: .8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  color: #fff;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.media-item.photo .badge-type {
+  background: linear-gradient(45deg, #007bff, #28a745);
+}
+.media-item.video .badge-type {
+  background: linear-gradient(45deg, #dc3545, #fd7e14);
+}
+
+/* Contenu texte sous média */
+.media-item .content {
+  padding: 20px;
+}
+.media-item .content h5 {
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+.media-item .content p {
+  color: #6c757d;
+  font-size: .9rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.media-item .content .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: .8rem;
+  color: #adb5bd;
+}
+
+/* ==============================================
+   Modal Media
+   ============================================== */
+#mediaModal .modal-body {
+  padding: 0;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.1);
+}
+#mediaContainer img,
+#mediaContainer iframe {
+  display: block;
+  max-width: 100%;
+  max-height: 80vh;
+  border-radius: 12px;
+  margin: auto;
+}
+#mediaModal .close {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 2.5rem;
+  color: #007bff;
+  z-index: 1000;
+  font-weight: bold;
+  transition: color .2s ease;
+}
+#mediaModal .close:hover {
+  color: #ffc107;
+}
+
+/* Overlay ne bloque plus le clic sur l’image */
+.media-item .overlay {
+  pointer-events: none;
+}
+/* Par contre, l’icône garde les events */
+.media-item .overlay .icon-circle {
+  pointer-events: auto;
+}
+
+
+/* ==============================================
+   Responsive Adjustments
+   ============================================== */
+@media (max-width: 768px) {
+  .section-header h2 {
+    font-size: 2rem !important;
+  }
+  .filter-btn {
+    padding: 10px 16px !important;
+    font-size: .8rem !important;
+    margin: 2px !important;
+  }
+  .media-item img {
+    height: 200px !important;
+  }
+}

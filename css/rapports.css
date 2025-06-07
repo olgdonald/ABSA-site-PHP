@@ -1,0 +1,61 @@
+.realisations {
+            padding: 50px 0;
+            background: #f2f5ff;
+        }
+        .realisations .section-header {
+            margin-bottom: 40px;
+        }
+        .realisations-year {
+            margin-bottom: 40px;
+        }
+        .realisations-year h3 {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #20212B;
+        }
+        .realisations-list {
+            justify-content: center;
+            display: flex;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .realisation-item {
+            background: white;
+            margin: 5px;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            flex: 1 1 calc(50% - 20px);
+            max-width: 700px;
+        }
+        .realisation-item img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+        .realisation-item h4 {
+            font-size: 18px;
+            margin: 10px 0;
+            color: #20212B;
+        }
+        .realisation-item p {
+            font-size: 14px;
+            color: #555;
+        }
+        .realisation-item a .btn-custom {
+            display: inline-block;
+            padding: 8px 15px;
+            margin-top: 10px;
+            background: #e9e100;
+            color: #20212B;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .realisation-item  a .btn-custom:hover {
+            background: #6eb1ff;
+        }
+        
