@@ -1,4 +1,47 @@
-<?php $currentPage = 'service'; ?>
+<?php $currentPage = 'service'; 
+$actions = [
+    [
+        'title' => "Descente a Ezeka 2025",
+        'date' => "12 Mars 2025",
+        'location' => "Yaoundé, Cameroun",
+        'participants' => "45 enfants touchés",
+        'description' => "Une journée mémorable où notre équipe a pu partager des moments précieux avec les enfants d'eseka. Au-delà des fournitures scolaires distribuées, nous avons offert notre temps et notre affection.",
+        'highlights' => [
+            "45 kits scolaires complets distribués",
+            "Séance de sensibilisation sur l'hygiène",
+            "Activités ludiques et éducatives",
+            "Remise de vivres pour 2 mois",
+        ],
+        'images' => [
+            ['src' => "./img_absa/EZEKA2025/ezeka (26).jpg", 'alt' => "Activités éducatives"],
+            ['src' => "./img_absa/EZEKA2025/ezeka (5).jpg", 'alt' => "Distribution de fournitures scolaires"],
+            ['src' => "./img_absa/EZEKA2025/ezeka (10).jpg", 'alt' => "Enfants souriants"],
+            ['src' => "./img_absa/EZEKA2025/ezeka (15).jpg", 'alt' => "Enfants souriants"],
+            // etc. ...
+        ],
+    ],
+    [
+        'title' => "Formation spécialisée Maison de l'Espoir",
+        'date' => "15 Janvier 2024",
+        'location' => "Douala, Cameroun",
+        'participants' => "32 enfants touchés",
+        'description' => "Notre première visite de l'année nous a menés à la Maison de l'Espoir. Une expérience enrichissante où nous avons pu constater les besoins spécifiques et y répondre avec des solutions adaptées.",
+        'highlights' => [
+            "Formation en langue des signes pour 3 éducateurs",
+            "Don de matériel médical de base",
+            "Installation d'un système d'alarme visuelle",
+            "Séance de dépistage auditif",
+        ],
+        'images' => [
+            ['src' => "https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&h=400&fit=crop", 'alt' => "Formation en langue des signes"],
+            ['src' => "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop", 'alt' => "Matériel médical"],
+        ],
+    ],
+    // Ajouter autant d'actions que nécessaire
+];
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
     <?php include('./include/header.php'); ?>
@@ -25,206 +68,66 @@
 
 <!-- Section Nos Actions -->
     <section class="actions-section">
-        <div class="container">
-            <!-- En-tête -->
-            <div class="section-header">
-                <p class="subtitle">Nos Actions sur le Terrain</p>
-                <h2>Des Gestes qui Parlent</h2>
-                <p class="description">Découvrez nos actions concrètes menées avec passion pour soutenir les plus vulnérables</p>
-            </div>
+    <div class="container">
+        <div class="section-header">
+            <p class="subtitle">Nos Actions sur le Terrain</p>
+            <h2>Des Gestes qui Parlent</h2>
+            <p class="description">Découvrez nos actions concrètes menées avec passion pour soutenir les plus vulnérables</p>
+        </div>
 
-            <!-- Container des actions -->
-            <div class="actions-container">
-                
-                <!-- Action 1 -->
+        <div class="actions-container">
+            <?php foreach($actions as $index => $action): ?>
                 <div class="action-item">
                     <div class="action-content">
                         <div class="action-media">
-                            <div class="media-carousel" data-action="0">
-                                <div class="media-item active">
-                                    <img src="https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?w=600&h=400&fit=crop" alt="Distribution de fournitures scolaires">
-                                </div>
-                                <div class="media-item">
-                                    <img src="https://images.unsplash.com/photo-1497486751825-1233686d5d80?w=600&h=400&fit=crop" alt="Enfants souriants">
-                                </div>
-                                <div class="media-item">
-                                    <img src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=600&h=400&fit=crop" alt="Activités éducatives">
-                                </div>
+                            <div class="media-carousel" data-action="<?= $index ?>">
+                                <?php foreach($action['images'] as $imgIndex => $image): ?>
+                                    <div class="media-item <?= $imgIndex === 0 ? 'active' : '' ?>">
+                                        <img src="<?= htmlspecialchars($image['src']) ?>" alt="<?= htmlspecialchars($image['alt']) ?>">
+                                    </div>
+                                <?php endforeach; ?>
+
                                 <div class="media-counter">
-                                    <span class="current">1</span> / <span class="total">3</span>
+                                    <span class="current">1</span> / <span class="total"><?= count($action['images']) ?></span>
                                 </div>
                             </div>
                             <div class="media-nav">
-                                <button class="nav-btn prev-btn">
-                                    <i class="fas fa-chevron-left"></i>
-                                </button>
+                                <button class="nav-btn prev-btn"><i class="fas fa-chevron-left"></i></button>
                                 <div class="media-dots">
-                                    <span class="dot active" data-slide="0"></span>
-                                    <span class="dot" data-slide="1"></span>
-                                    <span class="dot" data-slide="2"></span>
+                                    <?php foreach($action['images'] as $dotIndex => $img): ?>
+                                        <span class="dot <?= $dotIndex === 0 ? 'active' : '' ?>" data-slide="<?= $dotIndex ?>"></span>
+                                    <?php endforeach; ?>
                                 </div>
-                                <button class="nav-btn next-btn">
-                                    <i class="fas fa-chevron-right"></i>
-                                </button>
+                                <button class="nav-btn next-btn"><i class="fas fa-chevron-right"></i></button>
                             </div>
                         </div>
+
                         <div class="action-text">
                             <div class="action-header">
-                                <h3>Distribution de fournitures scolaires</h3>
+                                <h3><?= htmlspecialchars($action['title']) ?></h3>
                                 <div class="action-meta">
-                                    <span class="meta-item">
-                                        <i class="fas fa-calendar-alt"></i>
-                                        12 Mars 2024
-                                    </span>
-                                    <span class="meta-item">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        Yaoundé, Cameroun
-                                    </span>
-                                    <span class="meta-item">
-                                        <i class="fas fa-users"></i>
-                                        45 enfants touchés
-                                    </span>
+                                    <span class="meta-item"><i class="fas fa-calendar-alt"></i> <?= htmlspecialchars($action['date']) ?></span>
+                                    <span class="meta-item"><i class="fas fa-map-marker-alt"></i> <?= htmlspecialchars($action['location']) ?></span>
+                                    <span class="meta-item"><i class="fas fa-users"></i> <?= htmlspecialchars($action['participants']) ?></span>
                                 </div>
                             </div>
-                            <p class="action-description">
-                                Une journée mémorable où notre équipe a pu partager des moments précieux avec les enfants de l'Orphelinat Lumière. Au-delà des fournitures scolaires distribuées, nous avons offert notre temps et notre affection.
-                            </p>
+                            <p class="action-description"><?= htmlspecialchars($action['description']) ?></p>
                             <div class="action-highlights">
                                 <h4>Points forts de cette action :</h4>
                                 <ul class="highlights-list">
-                                    <li>45 kits scolaires complets distribués</li>
-                                    <li>Séance de sensibilisation sur l'hygiène</li>
-                                    <li>Activités ludiques et éducatives</li>
-                                    <li>Remise de vivres pour 2 mois</li>
+                                    <?php foreach($action['highlights'] as $highlight): ?>
+                                        <li><?= htmlspecialchars($highlight) ?></li>
+                                    <?php endforeach; ?>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Action 2 -->
-                <div class="action-item">
-                    <div class="action-content">
-                        <div class="action-media">
-                            <div class="media-carousel" data-action="1">
-                                <div class="media-item active">
-                                    <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?w=600&h=400&fit=crop" alt="Formation en langue des signes">
-                                </div>
-                                <div class="media-item">
-                                    <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop" alt="Matériel médical">
-                                </div>
-                                <div class="media-counter">
-                                    <span class="current">1</span> / <span class="total">2</span>
-                                </div>
-                            </div>
-                            <div class="media-nav">
-                                <button class="nav-btn prev-btn">
-                                    <i class="fas fa-chevron-left"></i>
-                                </button>
-                                <div class="media-dots">
-                                    <span class="dot active" data-slide="0"></span>
-                                    <span class="dot" data-slide="1"></span>
-                                </div>
-                                <button class="nav-btn next-btn">
-                                    <i class="fas fa-chevron-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="action-text">
-                            <div class="action-header">
-                                <h3>Formation spécialisée Maison de l'Espoir</h3>
-                                <div class="action-meta">
-                                    <span class="meta-item">
-                                        <i class="fas fa-calendar-alt"></i>
-                                        15 Janvier 2024
-                                    </span>
-                                    <span class="meta-item">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        Douala, Cameroun
-                                    </span>
-                                    <span class="meta-item">
-                                        <i class="fas fa-users"></i>
-                                        32 enfants touchés
-                                    </span>
-                                </div>
-                            </div>
-                            <p class="action-description">
-                                Notre première visite de l'année nous a menés à la Maison de l'Espoir. Une expérience enrichissante où nous avons pu constater les besoins spécifiques et y répondre avec des solutions adaptées.
-                            </p>
-                            <div class="action-highlights">
-                                <h4>Réalisations de cette mission :</h4>
-                                <ul class="highlights-list">
-                                    <li>Formation en langue des signes pour 3 éducateurs</li>
-                                    <li>Don de matériel médical de base</li>
-                                    <li>Installation d'un système d'alarme visuelle</li>
-                                    <li>Séance de dépistage auditif</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Action 3 -->
-                <div class="action-item">
-                    <div class="action-content">
-                        <div class="action-media">
-                            <div class="media-carousel" data-action="2">
-                                <div class="media-item active">
-                                    <img src="https://images.unsplash.com/photo-1594213962964-59660e1c48a6?w=600&h=400&fit=crop" alt="Mission dans les hauts plateaux">
-                                </div>
-                                <div class="media-counter">
-                                    <span class="current">1</span> / <span class="total">1</span>
-                                </div>
-                            </div>
-                            <div class="media-nav">
-                                <button class="nav-btn prev-btn" disabled>
-                                    <i class="fas fa-chevron-left"></i>
-                                </button>
-                                <div class="media-dots">
-                                    <span class="dot active" data-slide="0"></span>
-                                </div>
-                                <button class="nav-btn next-btn" disabled>
-                                    <i class="fas fa-chevron-right"></i>
-                                </button>
-                            </div>
-                        </div>
-                        <div class="action-text">
-                            <div class="action-header">
-                                <h3>Mission spécialisée Foyer Sainte Marie</h3>
-                                <div class="action-meta">
-                                    <span class="meta-item">
-                                        <i class="fas fa-calendar-alt"></i>
-                                        20 Novembre 2023
-                                    </span>
-                                    <span class="meta-item">
-                                        <i class="fas fa-map-marker-alt"></i>
-                                        Bafoussam, Cameroun
-                                    </span>
-                                    <span class="meta-item">
-                                        <i class="fas fa-users"></i>
-                                        28 enfants touchés
-                                    </span>
-                                </div>
-                            </div>
-                            <p class="action-description">
-                                Une mission particulière dans les hauts plateaux de l'Ouest Cameroun. Le Foyer Sainte Marie accueille principalement des enfants sourds et malentendants, ce qui nous a permis de déployer notre expertise spécialisée.
-                            </p>
-                            <div class="action-highlights">
-                                <h4>Impact de cette mission :</h4>
-                                <ul class="highlights-list">
-                                    <li>Évaluation auditive complète de tous les résidents</li>
-                                    <li>Formation du personnel en communication adaptée</li>
-                                    <li>Don d'appareils auditifs reconditionnés</li>
-                                    <li>Mise en place d'un programme de suivi</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
+            <?php endforeach; ?>
         </div>
-    </section>
+    </div>
+</section>
+
 
 
 
@@ -328,6 +231,12 @@
     </div>
 </section>
 <!-- Réalisations End -->
+
+<!-- Modal -->
+<div id="imageModal" class="modal" style="display:none;">
+   <span class="modal-close" style="cursor:pointer;" onclick="closeModal()">&times;</span>
+   <img id="modalImage" src="" alt="Image agrandie" style="max-width: 100%; max-height: 90vh; display: block; margin: 0 auto;">
+</div>
 
 
 
