@@ -71,7 +71,7 @@
         <div class="contact">
             <div class="container">
                 <div class="section-header text-center">
-                    <p>Contactez-nous</p>
+                    <p class="subtitle">Contactez-nous</p>
                     <h2>Une préoccupation ? laissez nous un message</h2>
                 </div>
 

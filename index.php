@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php include('./include/header.php'); ?>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/partenaire.css">
     </head>
 
     <body>
@@ -23,7 +25,7 @@
                         ABSA travaille avec des enseignants pour faciliter l'intégration des élèves sourds dans les écoles ordinaires.
                     </p>
                     <div class="carousel-btn">
-                        <a class="btn btn-custom" href="service.php">En savoir plus</a>
+                        <a class="btn btn-custom" href="single.php">En savoir plus</a>
                         <a class="btn btn-custom btn-play" data-toggle="modal" data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">Regarder la vidéo</a>
                     </div>
                 </div>
@@ -358,54 +360,120 @@
 <!-- Donate End -->
 
 
-        <!-- Partners Section Start -->
-    <div class="partners-section">
-        <div class="container">
-            <div class="section-header text-center">
-                <p>Nos Partenaires</h2>
-                <h2>Des institutions exceptionnelles qui collaborent avec nous</p>
-            </div>
-            
-            <div class="partners-grid" data-aos="zoom-in" data-aos-duration="2000" data-aos-once="false">
-                <div class="partner-item">
-                    <div class="partner-img">
-                        <img src="img_absa/img (5).jpg" alt="École Supérieure de Commerce">
-                    </div>
-                    <div class="partner-text">
-                        <h3>École spécialisée pour enfants déficients auditifs de Yaoundé (ESEDA)</h3>
-                        <p>Une institution réputée pour ses programmes d'intégration.</p>
-                        <div class="partner-contact">contact@esc.com</div>
+     <!-- Partners Section Start -->
+        <section class="partners-section">
+            <div class="container">
+                <div class="section-header text-center">
+                    <p class="subtitle">Nos Partenaires</p>
+                    <h2>Des institutions exceptionnelles qui collaborent avec nous</h2>
+                </div>
+
+                <!-- Établissements Primaires Spécialisés -->
+                <div class="partner-category" data-aos="fade-up" data-aos-duration="1000">
+                    
+                    <div class="partners-grid">
+                        
+
+                        <div class="partner-item">
+                            <div class="partner-img">
+                                <img src="img/absa-partenaire (3).jpg" alt="EDAN">
+                            </div>
+                            <div class="partner-content">
+                                <h4>École des déficients auditifs de Ndikimimeki (EDAN)</h4>
+                                <p class="partner-type">Établissement partenaire</p>
+                                <p class="partner-description">Centre éducatif pour enfants sourds et malentendants</p>
+                            </div>
+                        </div>
+
+
+                        <div class="partner-item">
+                            <div class="partner-img">
+                                <img src="img/absa-partenaire (2).jpg" alt="CAESEDA">
+                            </div>
+                            <div class="partner-content">
+                                <h4>CAESEDA DE NKOLMEBANGA</h4>
+                                <p class="partner-type">École Inclusive</p>
+                                <p class="partner-description">Centre d'accompagnement éducatif spécialisé</p>
+                                <div class="partner-contact">
+                                    <i class="fas fa-phone"></i>
+                                    <span>677 368 015</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="partner-item">
+                            <div class="partner-img">
+                                <img src="img/absa-partenaire (4).jpg" alt="Friends of Deafs">
+                            </div>
+                            <div class="partner-content">
+                                <h4>FRIENDS OF DEAFS SCHOOL (MBOA 2)</h4>
+                                <p class="partner-type">Établissement partenaire</p>
+                                <p class="partner-description">École spécialisée pour enfants sourds</p>
+                                <div class="partner-location">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Obala</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="partner-item">
-                    <div class="partner-img">
-                        <img src="img_absa/img (7).jpg" alt="Institut de Technologie">
-                    </div>
-                    <div class="partner-text">
-                        <h3>École des déficients auditifs de Ndiki (EDAN)</h3>
-                        <p>Fournit une formation avancée en ingénierie et technologie.</p>
-                        <div class="partner-contact">contact@tech-institute.com</div>
+
+                <!-- Ministères -->
+                <div class="partner-category" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                    
+                    <div class="partners-grid">
+                        <div class="partner-item ">
+                            <div class="partner-img">
+                                <img src="img/minas-logo.jpg" alt="MINAS" onerror="this.src='img/minas.jfif'">
+                            </div>
+                            <div class="partner-content">
+                                <h4>Ministère des Affaires Sociales</h4>
+                                <p class="partner-type">MINAS</p>
+                                <p class="partner-description">Partenaire institutionnel pour l'inclusion sociale</p>
+                                <div class="partner-badges">
+                                    <span class="badge official">Officiel</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="partner-item ">
+                            <div class="partner-img">
+                                <img src="img/minsec-logo.jpg" alt="MINSEC" onerror="this.src='img/minisec.jfif'">
+                            </div>
+                            <div class="partner-content">
+                                <h4>Ministère de l'Enseignement Secondaire</h4>
+                                <p class="partner-type">MINSEC</p>
+                                <p class="partner-description">Partenaire pour l'éducation inclusive</p>
+                                <div class="partner-badges">
+                                    <span class="badge official">Officiel</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="partner-item ">
+                            <div class="partner-img">
+                                <img src="img/giz-logo.jpg" alt="GIZ" onerror="this.src='img/GIZ.jpg'">
+                            </div>
+                            <div class="partner-content">
+                                <h4>Deutsche Gesellschaft für Internationale Zusammenarbeit</h4>
+                                <p class="partner-type">GIZ</p>
+                                <p class="partner-description">Coopération technique allemande pour le développement</p>
+                                <div class="partner-badges">
+                                    <span class="badge international">International</span>
+                                    <span class="badge country">Allemagne</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 
-                <div class="partner-item">
-                    <div class="partner-img">
-                        <img src="img_absa/im (1).jpg" alt="Université des Sciences">
-                    </div>
-                    <div class="partner-text">
-                        <h3>Institut missionnaire et social des jeunes handicapés / Eseka </h3>
-                        <p>Spécialisée dans la recherche et l'enseignement en sciences.</p>
-                        <div class="partner-contact">contact@univ-sciences.com</div>
-                    </div>
-                </div>
-                
-                <!-- Ajoutez d'autres partenaires ici -->
+
             </div>
-        </div>
-        <div class="see-more-container">
+            <div class="see-more-container">
             <button class="btn-see-more"><a href="partenaire.php">Voir Plus</a></button>
         </div>
-    </div>
+        </section>
+        <!-- Partners Section End -->
    
         
         
@@ -455,7 +523,7 @@
         
         
         <!-- Témoignages Début -->
-<div class="testimonial">
+<!-- <div class="testimonial">
     <div class="container">
         <div class="section-header text-center">
             <p>Témoignages</p>
@@ -520,7 +588,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Témoignages Fin -->
 
 
@@ -581,9 +649,9 @@
                         <img src="img_absa/img (13).jpg" alt="Image">
                     </div>
                     <div class="blog-text">
-                        <h3><a href="#">Soutien et Assistance pour les Sourds</a></h3>
+                        <h3><a href="service.php">Soutien et Assistance pour les Sourds</a></h3>
                         <p>
-                            Découvrez les initiatives récentes de notre association pour améliorer la vie des personnes sourdes-muettes. Nos projets récents apportent un soutien essentiel.
+                            Nous apportons un accompagnement personnalisé aux personnes sourdes à travers des programmes éducatifs, des aides matérielles et un suivi social, afin de favoriser leur inclusion et leur autonomie au quotidien.
                         </p>
                     </div>
                     
@@ -595,9 +663,9 @@
                         <img src="img_absa/img (3).jpg" alt="Image">
                     </div>
                     <div class="blog-text">
-                        <h3><a href="#">Installation de panneaux solaire</a></h3>
+                        <h3><a href="service.php">Installation de panneaux solaire</a></h3>
                         <p>
-                            Lisez les derniers articles sur nos projets et initiatives. Nous travaillons dur pour offrir des solutions adaptées aux besoins des personnes sourdes-muettes.
+                            Pour favoriser l'autonomie énergétique des centres d'accueil, nous avons installé des panneaux solaires dans plusieurs structures. Cette initiative permet un accès durable à l'électricité tout en respectant l’environnement.
                         </p>
                     </div>
                     
@@ -609,9 +677,9 @@
                         <img src="img_absa/im (2).jpg" alt="Image">
                     </div>
                     <div class="blog-text">
-                        <h3><a href="#">Événements et Activités</a></h3>
+                        <h3><a href="service.php">Événements et Activités écologiques</a></h3>
                         <p>
-                            Restez informé sur les événements et activités organisés par notre association. Nous vous invitons à participer et à soutenir nos causes.
+                            L'association organise régulièrement des actions de sensibilisation à l'environnement, telles que des campagnes, des journées de nettoyage et des ateliers éducatifs, avec la participation active de la communauté sourde.
                         </p>
                     </div>
                    

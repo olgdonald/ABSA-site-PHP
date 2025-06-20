@@ -46,7 +46,7 @@
 
 
                         <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Plus</a>
+                            <a href="partenaire.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Plus</a>
                             <div class="dropdown-menu">
                                 <a href="partenaire.php" class="dropdown-item">Nos Partenaires</a>
                                 <a href="donate.php" class="dropdown-item">Faire un don</a>
