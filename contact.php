@@ -2,33 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php include('./include/header.php'); ?>
-    <!-- <head>
-        <meta charset="utf-8">
-        <title>ABSA</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="Free Website Template" name="keywords">
-        <meta content="Free Website Template" name="description">
-
-         Favicon 
-        <link href="img/ABSA-logo.png" rel="icon">
-
-        <!-- Google Font 
-        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-        
-        <!-- CSS Libraries 
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-        <!-- Template Stylesheet -
-        <link href="css/style.css" rel="stylesheet">
-       
-   
     
-
-        <!-- email 
         <script type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
         </script>
@@ -40,9 +14,7 @@
             })();
         </script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="./js/email.js"></script> -->
-
-        
+        <script src="./js/email.js"></script>
         
     </head>
 
@@ -57,10 +29,6 @@
                     <div class="col-12">
                         <h2>Contactez Nous</h2>
                     </div>
-                    <!-- <div class="col-12">
-                        <a href="index.html">Accueil</a>
-                        <a href="">Contact</a>
-                    </div> -->
                 </div>
             </div>
         </div>

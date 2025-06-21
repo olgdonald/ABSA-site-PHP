@@ -41,7 +41,7 @@
                         <a href="index.php" class="nav-item nav-link <?php if ($currentPage == 'accueil') echo 'active text-warning'; ?>">Accueil</a>
                        <a href="single.php" class="nav-item nav-link <?php if ($currentPage == 'a-propos') echo 'active text-warning'; ?>">A Propos de nous</a>
                        <a href="service.php" class="nav-item nav-link <?php if ($currentPage == 'service') echo 'active text-warning'; ?>">Nos Actions</a>
-                       <a href="event.php" class="nav-item nav-link <?php if ($currentPage == 'event') echo 'active text-warning'; ?>">Projets</a>
+                       <!-- <a href="event.php" class="nav-item nav-link <?php if ($currentPage == 'event') echo 'active text-warning'; ?>">Projets</a> -->
                        <a href="galerie.php" class="nav-item nav-link <?php if ($currentPage == 'galerie') echo 'active text-warning'; ?>">Galerie</a>
 
 

@@ -1,16 +1,17 @@
-<?php $currentPage = 'accueil'; ?>
+<?php
+$currentPage = 'accueil'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <?php include('./include/header.php'); ?>
     <link rel="stylesheet" href="css/index.css">
+    <link href="css/service.css" rel="stylesheet">
     <link rel="stylesheet" href="css/partenaire.css">
+    <link rel="stylesheet" href="css/rapports.css">
     </head>
 
     <body>
         <?php include('./include/navbar.php'); ?>
         
-
-
         <!-- Carousel Start -->
 <div class="carousel">
     <div class="container-fluid">
@@ -211,7 +212,7 @@
 
         
         
-        <!-- Facts Start -->
+<!-- Facts Start -->
         <div class="facts" data-parallax="scroll" data-image-src="img/avel-chuklanov-9cx4-QowgLc-unsplash.jpg">
             <div class="container">
                 <div class="row">
@@ -257,61 +258,39 @@
                 </div>
             </div>
         </div>
-        <!-- Facts End -->
+<!-- Facts End -->
+
+<section class="realisations">
+    <div class="container">
+        <div class="section-header text-center">
+            <p class="subtitle">Rapports et Archives</p>
+            <h2>Rapports, projets et témoignages d’un engagement solidaire</h2>
+        </div>
+
+    <div class="realisations-year">
+    <div class="realisations-list">
+                <div class="realisation-item">
+                    <img src="img_absa/img.jpg" alt="Accès aux soins">
+                    <h4>projet d'appui scolaire d'Obala</h4>
+                    <p>Ce Projet avait pour objectif de soutenir les familles et les enfants sourds dans la voie de la réusite scolaire.Plus de détails dans ce document.</p>
+                    <a class="btn btn-custom" href="doc/projet d'appui scolaire d'Obala 2010_034922.pdf" download>Télécharger</a>
+                </div>
+                <div class="realisation-item">
+                    <img src="img_absa/1.jpg" alt="Soutien aux sourds-muets">
+                    <h4>Evaluation formation adulte ABSA</h4>
+                    <p>Formation à l'écriture et au suivi de projets en faveur de l'Association Bouche des Sourds d'Afrique (ABSA), œuvrant à l'intégration des sourds et malentendants. Plus d'information dans ce document</p>
+                    <a class="btn btn-custom" href="doc/evaluation formation_034755.pdf" download>Télécharger</a>
+                </div>
+    </div>
+    </div>
         
        
 
-<!-- Event Start -->
-<div class="event">
-    <div class="container">
-        <div class="section-header text-center">
-            <p>Événements à venir</p>
-            <h2>Préparez-vous pour nos prochains événements caritatifs</h2>
-        </div>
-        <div class="row"data-aos="fade-right" data-aos-duration="1000" data-aos-once="false">
-            <div class="col-lg-6">
-                <div class="event-item">
-                    <img src="img_absa/img (17).jpg" alt="Image">
-                    <div class="event-content">
-                        <div class="event-meta">
-                            <p><i class="fa fa-calendar-alt"></i>01-Janv-45</p>
-                            <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                            <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                        </div>
-                        <div class="event-text">
-                            <h3>Atelier de sensibilisation</h3>
-                            <p>
-                                Participez à notre atelier pour en savoir plus sur les défis auxquels font face les personnes sourdes et muettes et comment vous pouvez aider. Cet événement est une occasion de sensibiliser et de créer des opportunités de soutien.
-                            </p>
-                            <!-- <a class="btn btn-custom" href="volunteer.php">Rejoindre maintenant</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="event-item">
-                    <img src="img_absa/img (12).jpg" alt="Image">
-                    <div class="event-content">
-                        <div class="event-meta">
-                            <p><i class="fa fa-calendar-alt"></i>01-Janv-45</p>
-                            <p><i class="far fa-clock"></i>8:00 - 10:00</p>
-                            <p><i class="fa fa-map-marker-alt"></i>New York</p>
-                        </div>
-                        <div class="event-text">
-                            <h3>Événement de collecte de fonds</h3>
-                            <p>
-                                Joignez-vous à nous pour un événement spécial visant à recueillir des fonds pour les personnes sourdes et muettes. Votre participation contribuera à financer nos projets et à améliorer la qualité de vie des bénéficiaires.
-                            </p>
-                            <!-- <a class="btn btn-custom" href="volunteer.php">Rejoindre maintenant</a> -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+        
     <div class="see-more-container">
-        <button class="btn-see-more"><a href="event.php">Voir Plus</a></button>
+        <button class="btn-see-more"><a href="service.php">Voir Plus</a></button>
     </div>
+</section>
     
 </div>
 <!-- Event End -->
@@ -521,75 +500,7 @@
 <!-- Volunteer End -->
 
         
-        
-        <!-- Témoignages Début -->
-<!-- <div class="testimonial">
-    <div class="container">
-        <div class="section-header text-center">
-            <p>Témoignages</p>
-            <h2>Ce que les gens disent de nos activités caritatives</h2>
-        </div>
-        <div class="owl-carousel testimonials-carousel">
-            <div class="testimonial-item">
-                <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
-                    <div class="testimonial-name">
-                        <h3>Nom de la Personne</h3>
-                        <p>Profession</p>
-                    </div>
-                </div>
-                <div class="testimonial-text">
-                    <p>
-                        Grâce à cette association, j'ai trouvé un soutien précieux pour mes besoins quotidiens. Leur engagement et leur compassion font une réelle différence.
-                    </p>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
-                    <div class="testimonial-name">
-                        <h3>Nom de la Personne</h3>
-                        <p>Profession</p>
-                    </div>
-                </div>
-                <div class="testimonial-text">
-                    <p>
-                        L'aide apportée par cette association a transformé ma vie. Leur dévouement à aider les personnes sourdes-muettes est vraiment admirable.
-                    </p>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
-                    <div class="testimonial-name">
-                        <h3>Nom de la Personne</h3>
-                        <p>Profession</p>
-                    </div>
-                </div>
-                <div class="testimonial-text">
-                    <p>
-                        Les services offerts par cette organisation sont excellents. Ils ont fourni des ressources et un soutien précieux dans mon quotidien.
-                    </p>
-                </div>
-            </div>
-            <div class="testimonial-item">
-                <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
-                    <div class="testimonial-name">
-                        <h3>Nom de la Personne</h3>
-                        <p>Profession</p>
-                    </div>
-                </div>
-                <div class="testimonial-text">
-                    <p>
-                        Cette association a changé ma vie en offrant un soutien indispensable. Leur engagement envers les personnes sourdes-muettes est remarquable.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-<!-- Témoignages Fin -->
+
 
 
 <!-- Contact Début -->
@@ -695,5 +606,6 @@
 
 
         <?php include('./include/footer.php'); ?>
+        <script src="js/service.js"></script>
     </body>
 </html>
