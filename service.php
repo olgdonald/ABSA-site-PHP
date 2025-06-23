@@ -25,7 +25,7 @@ $actions = [
             ['src' => "./img_absa/EZEKA2025/ezeka (6).jpg", 'alt' => "Enfants souriants"],
             ['src' => "./img_absa/EZEKA2025/ezeka (19).jpg", 'alt' => "Enfants souriants"],
             ['src' => "./img_absa/EZEKA2025/ezeka (21).jpg", 'alt' => "Enfants souriants"],
-            // etc. ...
+            
         ],
     ],
     [
