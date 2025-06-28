@@ -269,18 +269,21 @@ $currentPage = 'accueil'; ?>
 
     <div class="realisations-year">
     <div class="realisations-list">
+
+                <div class="realisation-item">
+                    <img src="img/1.png" alt="Soutien aux sourds-muets">
+                    <h4>Rapport d'activité Avril-Mai 2025 absa</h4>
+                    <p>L'objectif fixé en amont, à savoir la distribution effective de denrées alimentaires dans quatre établissements ciblés, a été pleinement atteint. En effet, les descentes sur le terrain ont permis à notre équipe de se rendre successivement dans les quatre sites identifiés, où les opérations de remise des vivres se sont déroulées dans de bonnes conditions.</p>
+                    <a class="btn btn-custom" href="doc/Rapport d'activité avril-Mai 2025 absa" download>Télécharger</a>
+                </div>
+
                 <div class="realisation-item">
                     <img src="img_absa/img.jpg" alt="Accès aux soins">
                     <h4>projet d'appui scolaire d'Obala</h4>
                     <p>Ce Projet avait pour objectif de soutenir les familles et les enfants sourds dans la voie de la réusite scolaire.Plus de détails dans ce document.</p>
                     <a class="btn btn-custom" href="doc/projet d'appui scolaire d'Obala 2010_034922.pdf" download>Télécharger</a>
                 </div>
-                <div class="realisation-item">
-                    <img src="img_absa/1.jpg" alt="Soutien aux sourds-muets">
-                    <h4>Evaluation formation adulte ABSA</h4>
-                    <p>Formation à l'écriture et au suivi de projets en faveur de l'Association Bouche des Sourds d'Afrique (ABSA), œuvrant à l'intégration des sourds et malentendants. Plus d'information dans ce document</p>
-                    <a class="btn btn-custom" href="doc/evaluation formation_034755.pdf" download>Télécharger</a>
-                </div>
+                
     </div>
     </div>
         
