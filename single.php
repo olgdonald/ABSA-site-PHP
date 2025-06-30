@@ -30,7 +30,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <div class="single-content">
-                    <img src="img/asba banner.jpg" alt="Bannière ABSA" />
+                    <img loading="lazy"  src="img/asba banner.jpg" alt="Bannière ABSA" />
                     <h2>Bienvenue chez ABSA</h2>
                     <p>
                         L'Association Bouche des Sourds d‘Afrique (ABSA) s'engage à soutenir les personnes sourdes au Cameroun. Nous menons des activités importantes en faveur des sourds dans les domaines de l'éducation, la santé,  l'emploi , la protection de l'environnement,  l'information,  la communication et l'encadrement famillial.
@@ -59,7 +59,7 @@
 
                 <div class="single-bio">
                     <div class="single-bio-img">
-                        <img src="img/user (2).png" alt="Image de l'auteur" />
+                        <img loading="lazy"  src="img/user (2).png" alt="Image de l'auteur" />
                     </div>
                     <div class="single-bio-text">
                         <h3>Fondateur ABSA</h3>
@@ -89,7 +89,7 @@
                         <div class="recent-post">
                             <div class="post-item">
                                 <div class="post-img">
-                                    <img src="img_absa/im (4).jpg" alt="Article récent 1" />
+                                    <img loading="lazy"  src="img_absa/im (4).jpg" alt="Article récent 1" />
                                 </div>
                                 <div class="post-text">
                                     <a href="event.html">L'importance de l'éducation spécialisée pour les sourds</a>
@@ -102,7 +102,7 @@
                             
                             <div class="post-item">
                                 <div class="post-img">
-                                    <img src="img_absa/img (14).jpg" alt="Article récent 3" />
+                                    <img loading="lazy"  src="img_absa/img (14).jpg" alt="Article récent 3" />
                                 </div>
                                 <div class="post-text">
                                     <a href="event.html">Sensibilisation aux droits des sourds en Afrique</a>
@@ -119,25 +119,25 @@
 
                     <div class="sidebar-widget">
                         <div class="image-widget">
-                            <a href="#"><img src="img/archive (5).jpg" alt="Image Widget 1"></a>
+                            <a href="#"><img loading="lazy"  src="img/archive (5).jpg" alt="Image Widget 1"></a>
                         </div>
                     </div>
 
                     <div class="sidebar-widget">
                         <div class="image-widget">
-                            <a href="#"><img src="img/archive (7).jpg" alt="Image Widget 2"></a>
+                            <a href="#"><img loading="lazy"  src="img/archive (7).jpg" alt="Image Widget 2"></a>
                         </div>
                     </div>
 
                     <div class="sidebar-widget">
                         <div class="image-widget">
-                            <a href="#"><img src="img/archive (9).jpg" alt="Image Widget 3"></a>
+                            <a href="#"><img loading="lazy"  src="img/archive (9).jpg" alt="Image Widget 3"></a>
                         </div>
                     </div>
 
                     <div class="sidebar-widget">
                         <div class="image-widget">
-                            <a href="#"><img src="img/archive (6).jpg" alt="Image Widget 3"></a>
+                            <a href="#"><img loading="lazy"  src="img/archive (6).jpg" alt="Image Widget 3"></a>
                         </div>
                     </div>
                     </div>
@@ -217,7 +217,7 @@
         <p>Ils ont fait un don</p>
     </div>
     <div class="donateur" id="donateur-container">
-        <img src="img/default.jpg" alt="Photo Donateur" id="donateur-photo">
+        <img loading="lazy"  src="img/default.jpg" alt="Photo Donateur" id="donateur-photo">
         <div class="donateur-details">
             <p id="donateur-nom" class="nom">Nom Donateur</p>
             <p id="donateur-montant">Montant: 0 FCFA</p>

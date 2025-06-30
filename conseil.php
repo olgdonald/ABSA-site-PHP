@@ -54,7 +54,7 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-6 mb-4">
                         <div class="card min1">
-                            <img src="img_absa/img R1.jpg" class="card-img-top" alt="Conseil 1">
+                            <img loading="lazy"  src="img_absa/img R1.jpg" class="card-img-top" alt="Conseil 1">
                             <div class="card-body">
                                 <h5 class="card-title">Conseil 1</h5>
                                 <p class="card-text">Utilisez des gestes simples et clairs pour communiquer. Assurez-vous d'avoir leur attention avant de parler.</p>
@@ -64,7 +64,7 @@
                     
                     <div class="col-lg-6 col-md-6 mb-4">
                         <div class="card min1">
-                            <img src="img/alphabet-en-langue-des-signes-1024x788.webp" class="card-img-top" alt="Conseil 3">
+                            <img loading="lazy"  src="img/alphabet-en-langue-des-signes-1024x788.webp" class="card-img-top" alt="Conseil 3">
                             <div class="card-body">
                                 <h5 class="card-title">Conseil 2</h5>
                                 <p class="card-text">Apprenez quelques mots de base en langue des signes pour montrer votre soutien et faciliter la communication.</p>
@@ -109,7 +109,7 @@
         <div class="row">
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/bonjour.jpeg" class="card-img-top" alt="Geste Bonjour">
+                    <img loading="lazy"  src="img/bonjour.jpeg" class="card-img-top" alt="Geste Bonjour">
                     <div class="card-body">
                         <h5 class="card-title">Bonjour</h5>
                         <p class="card-text">Pour dire "Bonjour", levez la main droite à hauteur de l'épaule et agitez-la légèrement.</p>
@@ -118,7 +118,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/merci.jpeg" class="card-img-top" alt="Geste Merci">
+                    <img loading="lazy"  src="img/merci.jpeg" class="card-img-top" alt="Geste Merci">
                     <div class="card-body">
                         <h5 class="card-title">Merci</h5>
                         <p class="card-text">Pour dire "Merci", touchez vos lèvres avec les doigts de la main droite et avancez la main vers l'avant.</p>
@@ -127,7 +127,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/stp.jpeg" class="card-img-top" alt="Geste S'il vous plaît">
+                    <img loading="lazy"  src="img/stp.jpeg" class="card-img-top" alt="Geste S'il vous plaît">
                     <div class="card-body">
                         <h5 class="card-title">S'il vous plaît</h5>
                         <p class="card-text">Pour dire "S'il vous plaît", placez la paume de votre main droite contre votre poitrine et effectuez un mouvement circulaire.</p>
@@ -136,7 +136,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/oui.jpeg" class="card-img-top" alt="Geste Oui">
+                    <img loading="lazy"  src="img/oui.jpeg" class="card-img-top" alt="Geste Oui">
                     <div class="card-body">
                         <h5 class="card-title">Oui</h5>
                         <p class="card-text">Pour dire "Oui", fermez votre main en un poing et effectuez un mouvement de haut en bas, comme si vous secouiez la tête pour dire "oui".</p>
@@ -145,7 +145,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/non.jpeg" class="card-img-top" alt="Geste Non">
+                    <img loading="lazy"  src="img/non.jpeg" class="card-img-top" alt="Geste Non">
                     <div class="card-body">
                         <h5 class="card-title">Non</h5>
                         <p class="card-text">Pour dire "Non", utilisez l'index et le majeur de votre main droite pour faire un geste de pince, puis secouez la main de gauche à droite.</p>
@@ -154,7 +154,7 @@
             </div>
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <img src="img/bye.jpeg" class="card-img-top" alt="Geste Au revoir">
+                    <img loading="lazy"  src="img/bye.jpeg" class="card-img-top" alt="Geste Au revoir">
                     <div class="card-body">
                         <h5 class="card-title">Au revoir</h5>
                         <p class="card-text">Pour dire "Au revoir", levez la main droite et agitez-la d'un côté à l'autre.</p>

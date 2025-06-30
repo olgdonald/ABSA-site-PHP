@@ -57,7 +57,7 @@
          <div class="navbar navbar-expand-lg bg-dark navbar-dark">
             <div class="container-fluid">
                 <a href="index.html" class="navbar-brand">
-                  <div><img src="img/ABSA-logo.png" alt="Logo" id="navbar-logo"><span>ABSA</span></div>  
+                  <div><img loading="lazy"  src="img/ABSA-logo.png" alt="Logo" id="navbar-logo"><span>ABSA</span></div>  
                 </a>
                 <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                     <span class="navbar-toggler-icon"></span>
@@ -207,7 +207,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-1.jpg" alt="Team Image">
+                                <img loading="lazy"  src="img/team-1.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>Donald John</h2>
@@ -224,7 +224,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-2.jpg" alt="Team Image">
+                                <img loading="lazy"  src="img/team-2.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>Adam Phillips</h2>
@@ -241,7 +241,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-3.jpg" alt="Team Image">
+                                <img loading="lazy"  src="img/team-3.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>Thomas Olsen</h2>
@@ -258,7 +258,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="team-item">
                             <div class="team-img">
-                                <img src="img/team-4.jpg" alt="Team Image">
+                                <img loading="lazy"  src="img/team-4.jpg" alt="Team Image">
                             </div>
                             <div class="team-text">
                                 <h2>James Alien</h2>
@@ -288,7 +288,7 @@
         <div class="owl-carousel testimonials-carousel">
             <div class="testimonial-item">
                 <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
+                    <img loading="lazy"  src="img/user (2).png" alt="Image">
                     <div class="testimonial-name">
                         <h3>Nom de la Personne</h3>
                         <p>Profession</p>
@@ -302,7 +302,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
+                    <img loading="lazy"  src="img/user (2).png" alt="Image">
                     <div class="testimonial-name">
                         <h3>Nom de la Personne</h3>
                         <p>Profession</p>
@@ -316,7 +316,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
+                    <img loading="lazy"  src="img/user (2).png" alt="Image">
                     <div class="testimonial-name">
                         <h3>Nom de la Personne</h3>
                         <p>Profession</p>
@@ -330,7 +330,7 @@
             </div>
             <div class="testimonial-item">
                 <div class="testimonial-profile">
-                    <img src="img/user (2).png" alt="Image">
+                    <img loading="lazy"  src="img/user (2).png" alt="Image">
                     <div class="testimonial-name">
                         <h3>Nom de la Personne</h3>
                         <p>Profession</p>
@@ -404,7 +404,7 @@
         <p>Ils ont fait un don</p>
     </div>
     <div class="donateur" id="donateur-container">
-        <img src="img/default.jpg" alt="Photo Donateur" id="donateur-photo">
+        <img loading="lazy"  src="img/default.jpg" alt="Photo Donateur" id="donateur-photo">
         <div class="donateur-details">
             <p id="donateur-nom" class="nom">Nom Donateur</p>
             <p id="donateur-montant">Montant: 0 FCFA</p>

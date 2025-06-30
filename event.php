@@ -36,7 +36,7 @@
               <div class="row">
                   <div class="col-lg-6">
                       <div class="event-item">
-                          <img src="img_absa/img (17).jpg" alt="Image">
+                          <img loading="lazy"  src="img_absa/img (17).jpg" alt="Image">
                           <div class="event-content">
                               <div class="event-meta">
                                   <p><i class="fa fa-calendar-alt"></i>01-Janv-45</p>
@@ -55,7 +55,7 @@
                   </div>
                   <div class="col-lg-6">
                       <div class="event-item">
-                          <img src="img_absa/img (12).jpg" alt="Image">
+                          <img loading="lazy"  src="img_absa/img (12).jpg" alt="Image">
                           <div class="event-content">
                               <div class="event-meta">
                                   <p><i class="fa fa-calendar-alt"></i>01-Janv-45</p>

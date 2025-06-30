@@ -161,7 +161,7 @@ $actions = [
                             <div class="media-carousel" data-action="<?= $index ?>">
                                 <?php foreach($action['images'] as $imgIndex => $image): ?>
                                     <div class="media-item <?= $imgIndex === 0 ? 'active' : '' ?>">
-                                        <img src="<?= htmlspecialchars($image['src']) ?>" alt="<?= htmlspecialchars($image['alt']) ?>">
+                                        <img loading="lazy"  src="<?= htmlspecialchars($image['src']) ?>" alt="<?= htmlspecialchars($image['alt']) ?>">
                                     </div>
                                 <?php endforeach; ?>
 
@@ -225,7 +225,7 @@ $actions = [
             <h3>2025</h3>
             <div class="realisations-list">
                 <div class="realisation-item">
-                    <img src="img/1.png" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img/1.png" alt="Soutien aux sourds-muets">
                     <h4>Rapport d'activité Avril-Mai 2025 absa</h4>
                     <p>L'objectif fixé en amont, à savoir la distribution effective de denrées alimentaires dans quatre établissements ciblés, a été pleinement atteint. En effet, les descentes sur le terrain ont permis à notre équipe de se rendre successivement dans les quatre sites identifiés, où les opérations de remise des vivres se sont déroulées dans de bonnes conditions.</p>
                     <a class="btn btn-custom" href="doc/Rapport d'activité avril-Mai 2025 absa" download>Télécharger</a>
@@ -238,7 +238,7 @@ $actions = [
             <h3>2015</h3>
             <div class="realisations-list">
                 <div class="realisation-item">
-                    <img src="img_absa/img (15).jpg" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img_absa/img (15).jpg" alt="Soutien aux sourds-muets">
                     <h4>Programme d'insertion social des sourds</h4>
                     <p>L'un des objectif de l'ABSA est l'insertion des dourds dans la vie social; Découvrez notre programme d'insertion dans ce document</p>
                     <a class="btn btn-custom" href="doc/programme d'insertion social des sourds 2015_034853.pdf" download>Télécharger</a>
@@ -251,7 +251,7 @@ $actions = [
             <h3>2014</h3>
             <div class="realisations-list">
                 <div class="realisation-item">
-                    <img src="img_absa/img (5).jpg" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img_absa/img (5).jpg" alt="Soutien aux sourds-muets">
                     <h4>Cérémonie d'action de Solidarité en faveur de l'education des enfants sourds année scolaire 2014/2015</h4>
                     <p>Accompagnement des enfants sourds pour l'année scolaire 2014/2015 . Plus d'information dans ce document</p>
                     <a class="btn btn-custom" href="doc/liste des beneficiaires _034816.pdf" download>Télécharger</a>
@@ -264,7 +264,7 @@ $actions = [
             <h3>2012</h3>
             <div class="realisations-list">
                 <div class="realisation-item">
-                    <img src="img_absa/img (19).jpg" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img_absa/img (19).jpg" alt="Soutien aux sourds-muets">
                     <h4>Rapport des activités de l'exercice 2012</h4>
                     <p>Arrivé au terme de l'exercice 2012, s'il nous était donnéde de trouver un met pouvant résumer l'action de l'ABSA au cours de cette année, nous pensons que le terme « dynamisme »est celui qui peut le mieux caractériser l'activité de l'ABSA durant cet exercice. Un tel dynamisme a été observé à travers de multiples activités réalisées. Plus d'information dans ce document</p>
                     <a class="btn btn-custom" href="doc/rapport d'activite 2012_035027.pdf" download>Télécharger</a>
@@ -277,13 +277,13 @@ $actions = [
             <h3>2011</h3>
             <div class="realisations-list">
                 <div class="realisation-item">
-                    <img src="img_absa/img (9).jpg" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img_absa/img (9).jpg" alt="Soutien aux sourds-muets">
                     <h4>Rapport des activités de l'exercice 2011</h4>
                     <p>Puisque le phénomène d'exclusion et de marginalisation des sourds se manifeste dans tous les milieux de la vie sociale, nous avas pu focaliser nos activités au cours de l'année 2011 dans les domaines de la santé et de l'éducation. Plus d'information dans ce document</p>
                     <a class="btn btn-custom" href="doc/rapport 2011_035017.pdf" download>Télécharger</a>
                 </div>
                 <div class="realisation-item">
-                    <img src="img_absa/1.jpg" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img_absa/1.jpg" alt="Soutien aux sourds-muets">
                     <h4>Evaluation formation adulte ABSA</h4>
                     <p>Formation à l'écriture et au suivi de projets en faveur de l'Association Bouche des Sourds d'Afrique (ABSA), œuvrant à l'intégration des sourds et malentendants. Plus d'information dans ce document</p>
                     <a class="btn btn-custom" href="doc/evaluation formation_034755.pdf" download>Télécharger</a>
@@ -296,13 +296,13 @@ $actions = [
             <h3>2010</h3>
             <div class="realisations-list">
                 <div class="realisation-item">
-                    <img src="img_absa/img.jpg" alt="Accès aux soins">
+                    <img loading="lazy"  src="img_absa/img.jpg" alt="Accès aux soins">
                     <h4>projet d'appui scolaire d'Obala</h4>
                     <p>Ce Projet avait pour objectif de soutenir les familles et les enfants sourds dans la voie de la réusite scolaire.Plus de détails dans ce document.</p>
                     <a class="btn btn-custom" href="doc/projet d'appui scolaire d'Obala 2010_034922.pdf" download>Télécharger</a>
                 </div>
                 <div class="realisation-item">
-                    <img src="img_absa/img (17).jpg" alt="Accès aux soins">
+                    <img loading="lazy"  src="img_absa/img (17).jpg" alt="Accès aux soins">
                     <h4>ORGANISATION DE LA CÉLÉBRATION DE LA SEMAINE MONDIALE DES SOURDS</h4>
                     <p> Il était question de sensibiliser un grand nombre de personnes et personnalités des différentes catégories et rangs sociaux sur les aptitudes des sourds.Plus de détails dans ce document.</p>
                     <a class="btn btn-custom" href="doc/projet d'organisation de la semaine des sourds_034940.pdf" download>Télécharger</a>
@@ -315,7 +315,7 @@ $actions = [
             <h3>2009</h3>
             <div class="realisations-list">
                 <div class="realisation-item">
-                    <img src="img/absa banner.png" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img/absa banner.png" alt="Soutien aux sourds-muets">
                     <h4>Rapport des activités de l'exercice 2009</h4>
                     <p>Commencé le 25 Janvier avec la tenue de la traditionnelle assemblée générale d'ouverture, l'exercice 2009 marque la fin du mandat du comité de gestion.
                         Au cours de cet exercice, l'association bouche des sourds d'Afrique s'est engagé entre autre activités mené au cours des années précédentes à l'introduire dans son programme: l'organisation des conférences débats, des placement des sourds dans le milieu professionnel. Les détails de ces activités sont présentés sont présentés dans ce document.</p>
@@ -337,7 +337,7 @@ $actions = [
 <!-- Modal -->
 <div id="imageModal" class="modal" style="display:none;">
    <span class="modal-close" style="cursor:pointer;" onclick="closeModal()">&times;</span>
-   <img id="modalImage" src="" alt="Image agrandie" style="max-width: 100%; max-height: 90vh; display: block; margin: 0 auto;">
+   <img loading="lazy"  id="modalImage" src="" alt="Image agrandie" style="max-width: 100%; max-height: 90vh; display: block; margin: 0 auto;">
 </div>
 
 

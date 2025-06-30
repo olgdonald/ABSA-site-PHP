@@ -24,7 +24,7 @@ $(document).ready(function() {
               <i class="fas fa-expand"></i>
             </div>
           </div>
-          <img 
+          <img loading="lazy"  
             src="img_absa/${name}" 
             alt="Image ${index + 1}" 
             data-toggle="modal" 
@@ -84,7 +84,7 @@ $(document).ready(function() {
     modal.find('.modal-title').text(alt || 'Média');
 
     if (type === 'photo') {
-      container.append(`<img src="${src}" class="img-fluid rounded" alt="${alt}">`);
+      container.append(`<img loading="lazy"  src="${src}" class="img-fluid rounded" alt="${alt}">`);
     } else if (type === 'video') {
       container.append(`
         <div class="embed-responsive embed-responsive-16by9">

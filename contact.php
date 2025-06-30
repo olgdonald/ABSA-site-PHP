@@ -77,7 +77,7 @@
 
 
                 <div class="contact-img">
-                    <img src="img/asba banner.jpg" alt="Image">
+                    <img loading="lazy"  src="img/asba banner.jpg" alt="Image">
                 </div>
                 <div class="contact-form">
                     <div id="success"></div>

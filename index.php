@@ -18,7 +18,7 @@ $currentPage = 'accueil'; ?>
         <div class="owl-carousel">
             <div class="carousel-item">
                 <div class="carousel-img">
-                    <img src="img_absa/img (23).jpg" alt="Sensibilisation en milieu scolaire">
+                    <img loading="lazy"  src="img_absa/img (23).jpg" alt="Sensibilisation en milieu scolaire">
                 </div>
                 <div class="carousel-text">
                     <h1>Sensibilisation en milieu scolaire</h1>
@@ -33,7 +33,7 @@ $currentPage = 'accueil'; ?>
             </div>
             <div class="carousel-item">
                 <div class="carousel-img">
-                    <img src="img/asba banner.jpg" alt="Distribution de matériel scolaire">
+                    <img loading="lazy"  src="img/asba banner.jpg" alt="Distribution de matériel scolaire">
                 </div>
                 <div class="carousel-text">
                     <h1>Distribution de matériel scolaire</h1>
@@ -48,7 +48,7 @@ $currentPage = 'accueil'; ?>
             </div>
             <div class="carousel-item">
                 <div class="carousel-img">
-                    <img src="img_absa/im (4).jpg" alt="Ateliers de sensibilisation à la santé">
+                    <img loading="lazy"  src="img_absa/im (4).jpg" alt="Ateliers de sensibilisation à la santé">
                 </div>
                 <div class="carousel-text">
                     <h1>Ateliers de sensibilisation à la santé</h1>
@@ -271,14 +271,14 @@ $currentPage = 'accueil'; ?>
     <div class="realisations-list">
 
                 <div class="realisation-item">
-                    <img src="img/1.png" alt="Soutien aux sourds-muets">
+                    <img loading="lazy"  src="img/1.png" alt="Soutien aux sourds-muets">
                     <h4>Rapport d'activité Avril-Mai 2025 absa</h4>
                     <p>L'objectif fixé en amont, à savoir la distribution effective de denrées alimentaires dans quatre établissements ciblés, a été pleinement atteint. En effet, les descentes sur le terrain ont permis à notre équipe de se rendre successivement dans les quatre sites identifiés, où les opérations de remise des vivres se sont déroulées dans de bonnes conditions.</p>
                     <a class="btn btn-custom" href="doc/Rapport d'activité avril-Mai 2025 absa" download>Télécharger</a>
                 </div>
 
                 <div class="realisation-item">
-                    <img src="img_absa/img.jpg" alt="Accès aux soins">
+                    <img loading="lazy"  src="img_absa/img.jpg" alt="Accès aux soins">
                     <h4>projet d'appui scolaire d'Obala</h4>
                     <p>Ce Projet avait pour objectif de soutenir les familles et les enfants sourds dans la voie de la réusite scolaire.Plus de détails dans ce document.</p>
                     <a class="btn btn-custom" href="doc/projet d'appui scolaire d'Obala 2010_034922.pdf" download>Télécharger</a>
@@ -358,7 +358,7 @@ $currentPage = 'accueil'; ?>
 
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img/absa-partenaire (3).jpg" alt="EDAN">
+                                <img loading="lazy"  src="img/absa-partenaire (3).jpg" alt="EDAN">
                             </div>
                             <div class="partner-content">
                                 <h4>École des déficients auditifs de Ndikimimeki (EDAN)</h4>
@@ -370,7 +370,7 @@ $currentPage = 'accueil'; ?>
 
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img/absa-partenaire (2).jpg" alt="CAESEDA">
+                                <img loading="lazy"  src="img/absa-partenaire (2).jpg" alt="CAESEDA">
                             </div>
                             <div class="partner-content">
                                 <h4>CAESEDA DE NKOLMEBANGA</h4>
@@ -385,7 +385,7 @@ $currentPage = 'accueil'; ?>
 
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img/absa-partenaire (4).jpg" alt="Friends of Deafs">
+                                <img loading="lazy"  src="img/absa-partenaire (4).jpg" alt="Friends of Deafs">
                             </div>
                             <div class="partner-content">
                                 <h4>FRIENDS OF DEAFS SCHOOL (MBOA 2)</h4>
@@ -406,7 +406,7 @@ $currentPage = 'accueil'; ?>
                     <div class="partners-grid">
                         <div class="partner-item ">
                             <div class="partner-img">
-                                <img src="img/minas-logo.jpg" alt="MINAS" onerror="this.src='img/minas.jfif'">
+                                <img loading="lazy"  src="img/minas-logo.jpg" alt="MINAS" onerror="this.src='img/MINAS.jfif'">
                             </div>
                             <div class="partner-content">
                                 <h4>Ministère des Affaires Sociales</h4>
@@ -420,7 +420,7 @@ $currentPage = 'accueil'; ?>
 
                         <div class="partner-item ">
                             <div class="partner-img">
-                                <img src="img/minsec-logo.jpg" alt="MINSEC" onerror="this.src='img/minisec.jfif'">
+                                <img loading="lazy"  src="img/minsec-logo.jpg" alt="MINSEC" onerror="this.src='img/minisec.jfif'">
                             </div>
                             <div class="partner-content">
                                 <h4>Ministère de l'Enseignement Secondaire</h4>
@@ -433,7 +433,7 @@ $currentPage = 'accueil'; ?>
                         </div>
                         <div class="partner-item ">
                             <div class="partner-img">
-                                <img src="img/giz-logo.jpg" alt="GIZ" onerror="this.src='img/GIZ.jpg'">
+                                <img loading="lazy"  src="img/giz-logo.jpg" alt="GIZ" onerror="this.src='img/GIZ.jpg'">
                             </div>
                             <div class="partner-content">
                                 <h4>Deutsche Gesellschaft für Internationale Zusammenarbeit</h4>
@@ -514,7 +514,7 @@ $currentPage = 'accueil'; ?>
             <h2>Une préoccupation ? laissez nous un message</h2>
         </div>
         <div class="contact-img">
-            <img src="img/asba banner.jpg" alt="Image">
+            <img loading="lazy"  src="img/asba banner.jpg" alt="Image">
         </div>
         <div class="contact-form">
             <div id="success"></div>
@@ -560,7 +560,7 @@ $currentPage = 'accueil'; ?>
             <div class="col-lg-4">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="img_absa/img (13).jpg" alt="Image">
+                        <img loading="lazy"  src="img_absa/img (13).jpg" alt="Image">
                     </div>
                     <div class="blog-text">
                         <h3><a href="service.php">Soutien et Assistance pour les Sourds</a></h3>
@@ -574,7 +574,7 @@ $currentPage = 'accueil'; ?>
             <div class="col-lg-4">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="img_absa/img (3).jpg" alt="Image">
+                        <img loading="lazy"  src="img_absa/img (3).jpg" alt="Image">
                     </div>
                     <div class="blog-text">
                         <h3><a href="service.php">Installation de panneaux solaire</a></h3>
@@ -588,7 +588,7 @@ $currentPage = 'accueil'; ?>
             <div class="col-lg-4">
                 <div class="blog-item">
                     <div class="blog-img">
-                        <img src="img_absa/im (2).jpg" alt="Image">
+                        <img loading="lazy"  src="img_absa/im (2).jpg" alt="Image">
                     </div>
                     <div class="blog-text">
                         <h3><a href="service.php">Événements et Activités écologiques</a></h3>

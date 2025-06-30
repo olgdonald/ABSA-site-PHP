@@ -41,7 +41,7 @@
                     <div class="partners-grid">
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img_absa/img (5).jpg" alt="ESEDA">
+                                <img loading="lazy"  src="img_absa/img (5).jpg" alt="ESEDA">
                             </div>
                             <div class="partner-content">
                                 <h4>École spécialisée pour enfants déficients auditifs de Yaoundé (ESEDA)</h4>
@@ -52,7 +52,7 @@
 
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img/absa-partenaire (3).jpg" alt="EDAN">
+                                <img loading="lazy"  src="img/absa-partenaire (3).jpg" alt="EDAN">
                             </div>
                             <div class="partner-content">
                                 <h4>École des déficients auditifs de Ndikimimeki (EDAN)</h4>
@@ -63,7 +63,7 @@
 
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img/absa-partenaire (5).jpg" alt="Institut Eseka">
+                                <img loading="lazy"  src="img/absa-partenaire (5).jpg" alt="Institut Eseka">
                             </div>
                             <div class="partner-content">
                                 <h4>Institut missionnaire et social des jeunes handicapés</h4>
@@ -78,7 +78,7 @@
 
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img/absa-partenaire (2).jpg" alt="CAESEDA">
+                                <img loading="lazy"  src="img/absa-partenaire (2).jpg" alt="CAESEDA">
                             </div>
                             <div class="partner-content">
                                 <h4>CAESEDA DE NKOLMEBANGA</h4>
@@ -93,7 +93,7 @@
 
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img src="img/absa-partenaire (4).jpg" alt="Friends of Deafs">
+                                <img loading="lazy"  src="img/absa-partenaire (4).jpg" alt="Friends of Deafs">
                             </div>
                             <div class="partner-content">
                                 <h4>FRIENDS OF DEAFS SCHOOL (MBOA 2)</h4>
@@ -121,7 +121,7 @@
                     <div class="partners-grid">
                         <div class="partner-item ministerial">
                             <div class="partner-img">
-                                <img src="img/minas-logo.jpg" alt="MINAS" onerror="this.src='img/minas.jfif'">
+                                <img loading="lazy"  src="img/minas-logo.jpg" alt="MINAS" onerror="this.src='img/MINAS.jfif'">
                             </div>
                             <div class="partner-content">
                                 <h4>Ministère des Affaires Sociales</h4>
@@ -135,7 +135,7 @@
 
                         <div class="partner-item ministerial">
                             <div class="partner-img">
-                                <img src="img/minsec-logo.jpg" alt="MINSEC" onerror="this.src='img/minisec.jfif'">
+                                <img loading="lazy"  src="img/minsec-logo.jpg" alt="MINSEC" onerror="this.src='img/minisec.jfif'">
                             </div>
                             <div class="partner-content">
                                 <h4>Ministère de l'Enseignement Secondaire</h4>
@@ -162,7 +162,7 @@
                     <div class="partners-grid">
                         <div class="partner-item international">
                             <div class="partner-img">
-                                <img src="img/giz-logo.jpg" alt="GIZ" onerror="this.src='img/GIZ.jpg'">
+                                <img loading="lazy"  src="img/giz-logo.jpg" alt="GIZ" onerror="this.src='img/GIZ.jpg'">
                             </div>
                             <div class="partner-content">
                                 <h4>Deutsche Gesellschaft für Internationale Zusammenarbeit</h4>
@@ -177,7 +177,7 @@
 
                         <div class="partner-item international">
                             <div class="partner-img">
-                                <img src="img/planete-urgences-logo.jpg" alt="Planète Urgences" onerror="this.src='img/planete urgence.jpg'">
+                                <img loading="lazy"  src="img/planete-urgences-logo.jpg" alt="Planète Urgences" onerror="this.src='img/planete urgence.jpg'">
                             </div>
                             <div class="partner-content">
                                 <h4>Planète Urgences</h4>

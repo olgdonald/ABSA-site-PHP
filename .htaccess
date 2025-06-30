@@ -1,0 +1,74 @@
+# --------------------------------------------
+#  Redirection HTTP vers HTTPS (déjà présent)
+# --------------------------------------------
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# --------------------------------------------
+# 🌐 Redirection vers index.php (déjà présent)
+# --------------------------------------------
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [QSA,L]
+
+# --------------------------------------------
+#  Sécurité : bloquer l’accès à certains fichiers (déjà présent)
+# --------------------------------------------
+<FilesMatch "\.(env|git|htaccess|ini|log|sql)$">
+  Order Allow,Deny
+  Deny from all
+</FilesMatch>
+
+# --------------------------------------------
+#  Définir la page d’index
+# --------------------------------------------
+DirectoryIndex index.php
+
+# --------------------------------------------
+#  Mise en cache pour améliorer la vitesse
+# --------------------------------------------
+<IfModule mod_expires.c>
+  ExpiresActive On
+
+  # Images : 1 an
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/jpg  "access plus 1 year"
+  ExpiresByType image/png  "access plus 1 year"
+  ExpiresByType image/gif  "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+
+  # Fonts : 1 an
+  ExpiresByType font/woff2 "access plus 1 year"
+  ExpiresByType font/woff  "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+
+  # CSS & JS : 1 semaine
+  ExpiresByType text/css "access plus 1 week"
+  ExpiresByType application/javascript "access plus 1 week"
+  ExpiresByType application/x-javascript "access plus 1 week"
+</IfModule>
+
+# --------------------------------------------
+#  Compression gzip (HTML, CSS, JS, etc.)
+# --------------------------------------------
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/plain
+  AddOutputFilterByType DEFLATE text/html
+  AddOutputFilterByType DEFLATE text/xml
+  AddOutputFilterByType DEFLATE text/css
+  AddOutputFilterByType DEFLATE application/xml
+  AddOutputFilterByType DEFLATE application/xhtml+xml
+  AddOutputFilterByType DEFLATE application/javascript
+  AddOutputFilterByType DEFLATE application/x-javascript
+</IfModule>
+
+# --------------------------------------------
+#  Sécurité complémentaire (en option)
+# --------------------------------------------
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set X-XSS-Protection "1; mode=block"
+</IfModule>
