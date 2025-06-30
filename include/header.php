@@ -8,13 +8,13 @@
         <meta name="author" content="Association Bouche des Sourds d’Afrique (ABSA)">
         <meta property="og:title" content="Association Bouche des Sourds d’Afrique (ABSA)">
         <meta property="og:description" content="ABSA lutte pour l'inclusion et la dignité des personnes sourdes au Cameroun : éducation, emploi, santé et sensibilisation contre les préjugés.">
-        <meta property="og:image" content="https://exemple.com/img/logo-absa.jpg">
-        <meta property="og:url" content="https://exemple.com/absa">
+        <meta property="og:image" content="https://absa-cameroun.com/img/ABSA-logo.png">
+        <meta property="og:url" content="https://absa-cameroun.com/index.php">
         <meta property="og:type" content="non_profit">
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="Association Bouche des Sourds d’Afrique (ABSA)">
         <meta name="twitter:description" content="L'ABSA s'engage pour l'inclusion des personnes sourdes au Cameroun : éducation, emploi, santé et sensibilisation.">
-        <meta name="twitter:image" content="https://exemple.com/images/logo-absa.jpg">
+        <meta name="twitter:image" content="https://absa-cameroun.com/img/ABSA-logo.png">
         
 
         <!-- Favicon -->
