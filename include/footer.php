@@ -48,7 +48,7 @@
 <!-- Footer End -->
 
 <!-- Banderole Donateurs Start -->
-<div class="banderole-donateurs">
+<!-- <div class="banderole-donateurs">
     <div class="message-explicatif">
         <p>Ils ont fait un don</p>
     </div>
@@ -59,7 +59,7 @@
             <p id="donateur-montant">Montant: 0 FCFA</p>
         </div>
     </div>
-</div>
+</div> -->
 <!-- Banderole Donateurs End -->
 
 
@@ -84,12 +84,12 @@
         
         <!-- Contact Javascript File -->
         <script src="../mail/jqBootstrapValidation.min.js"></script>
-        <script src="../mail/contact.js"></script>
+        <script src="../mail/contact.js?v=2.0"></script>
         
 
         <!-- Template Javascript -->
-        <script src="../js/main.js"></script>
-        <script src="../js/banderol.js"></script>
+        <script src="../js/main.js?v=2.0"></script>
+        <!-- <script src="../js/banderol.js"></script> -->
 
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>

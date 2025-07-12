@@ -362,11 +362,13 @@ a:focus {
     bottom: 15px;
     transition: background 0.5s;
     z-index: 9;
+    border-radius: 20px;
 }
 
 .back-to-top i {
     color: #4a4c70;
-    padding-top: 10px;
+    padding-top: 6px;
+
 }
 
 .back-to-top:hover {
@@ -2507,3 +2509,23 @@ a:focus {
         text-align: center;
     }
 }
+
+/* Désactiver les animations Bootstrap pour éviter les conflits */
+/* .navbar-collapse {
+    transition: none !important;
+}
+
+.navbar-collapse.collapsing {
+    height: auto !important;
+    transition: none !important;
+}
+
+@media (max-width: 991.98px) {
+    .navbar-collapse:not(.show) {
+        display: none !important;
+    }
+    
+    .navbar-collapse.show {
+        display: block !important;
+    }
+} */

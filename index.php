@@ -383,20 +383,23 @@ $currentPage = 'accueil'; ?>
                             </div>
                         </div>
 
+                        
                         <div class="partner-item">
                             <div class="partner-img">
-                                <img loading="lazy"  src="img/absa-partenaire (4).jpg" alt="Friends of Deafs">
+                                <img loading="lazy"  src="img/planete-urgences-logo.jpg" alt="Planète Urgences" onerror="this.src='img/planete urgence.jpg'">
                             </div>
                             <div class="partner-content">
-                                <h4>FRIENDS OF DEAFS SCHOOL (MBOA 2)</h4>
-                                <p class="partner-type">Établissement partenaire</p>
-                                <p class="partner-description">École spécialisée pour enfants sourds</p>
-                                <div class="partner-location">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Obala</span>
+                                <h4>Planète Urgences</h4>
+                                <p class="partner-type">ONG Internationale</p>
+                                <p class="partner-description">Organisation humanitaire d'aide d'urgence</p>
+                                <div class="partner-badges">
+                                    <span class="badge international">International</span>
+                                    <span class="badge humanitarian">Humanitaire</span>
                                 </div>
                             </div>
                         </div>
+
+
                     </div>
                 </div>
 

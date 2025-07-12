@@ -32,9 +32,7 @@
                 <a href="index.php" class="navbar-brand">
                   <div><img src="img/ABSA-logo.png" alt="Logo" id="navbar-logo"><span>ABSA</span></div>  
                 </a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <button type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
 
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">

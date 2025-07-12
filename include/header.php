@@ -33,7 +33,7 @@
         
 
         <!-- Template Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
+        <link href="css/style.css?v=2.0" rel="stylesheet">
 
         <!-- email -->
         <script type="text/javascript"
@@ -47,4 +47,5 @@
             })();
         </script>
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-        <script src="./js/email.js"></script>
+        <script src="./js/email.js?v=2.0"></script>
+        <script src="./js/navbar.js?v=2.0"></script>

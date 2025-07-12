@@ -44,34 +44,32 @@
                 </div>
 
                 <div class="container my-5 p-4 rounded-4">
-                    <!-- <h2 class="text-center mb-4 text-primary-emphasis">Nos contacts</h2> -->
-                    
-                    <div class="row gy-4">
-                      <div class="col-md-4 text-center">
-                        <div class="contact-box py-4 px-3">
-                          <i class="fas fa-phone fa-2x text-info mb-2 icon-custom"></i>
-                          <h4 class="mt-2 text-dark">Téléphone</h4>
-                          <p class="text-muted">+237 6 77 69 26 90</p>
-                        </div>
-                      </div>
-                  
-                      <div class="col-md-4 text-center">
-                        <div class="contact-box py-4 px-3">
-                          <i class="fas fa-envelope fa-2x text-info mb-2 icon-custom"></i>
-                          <h4 class="mt-2 text-dark">Email</h4>
-                          <p class="text-muted">abpepba@yahoo.fr</p>
-                        </div>
-                      </div>
-                  
-                      <div class="col-md-4 text-center">
-                        <div class="contact-box py-4 px-3">
-                          <i class="fas fa-map-marker-alt fa-2x text-info mb-2 icon-custom"></i>
-                          <h4 class="mt-2 text-dark">Adresse</h4>
-                          <p class="text-muted">Carrefour Belibi, Yaoundé, Cameroun</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+    <div class="row gy-4">
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <div class="contact-box py-4 px-3">
+          <i class="fas fa-phone fa-2x text-info mb-2 icon-custom"></i>
+          <h4 class="mt-2 text-dark">Téléphone</h4>
+          <p class="text-muted">+237 6 77 69 26 90</p>
+        </div>
+      </div>
+  
+      <div class="col-md-4 text-center mb-4 mb-md-0">
+        <div class="contact-box py-4 px-3">
+          <i class="fas fa-envelope fa-2x text-info mb-2 icon-custom"></i>
+          <h4 class="mt-2 text-dark">Email</h4>
+          <p class="text-muted">abpepba@yahoo.fr</p>
+        </div>
+      </div>
+  
+      <div class="col-md-4 text-center">
+        <div class="contact-box py-4 px-3">
+          <i class="fas fa-map-marker-alt fa-2x text-info mb-2 icon-custom"></i>
+          <h4 class="mt-2 text-dark">Adresse</h4>
+          <p class="text-muted">Carrefour Belibi, Yaoundé, Cameroun</p>
+        </div>
+      </div>
+    </div>
+</div>
                   
                   
 
