@@ -37,18 +37,20 @@
                 <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                     <div class="navbar-nav ml-auto">
                         <a href="index.php" class="nav-item nav-link <?php if ($currentPage == 'accueil') echo 'active text-warning'; ?>">Accueil</a>
-                       <a href="single.php" class="nav-item nav-link <?php if ($currentPage == 'a-propos') echo 'active text-warning'; ?>">A Propos de nous</a>
+                       <a href="single.php" class="nav-item nav-link <?php if ($currentPage == 'a-propos') echo 'active text-warning'; ?>">A Propos</a>
                        <a href="service.php" class="nav-item nav-link <?php if ($currentPage == 'service') echo 'active text-warning'; ?>">Nos Actions</a>
+                        <a href="donate.php" class="nav-item nav-link <?php if ($currentPage == 'donate') echo 'active text-warning'; ?>">Dons</a>
                        <!-- <a href="event.php" class="nav-item nav-link <?php if ($currentPage == 'event') echo 'active text-warning'; ?>">Projets</a> -->
-                       <a href="galerie.php" class="nav-item nav-link <?php if ($currentPage == 'galerie') echo 'active text-warning'; ?>">Galerie</a>
+                       <!-- <a href="galerie.php" class="nav-item nav-link <?php if ($currentPage == 'galerie') echo 'active text-warning'; ?>">Galerie</a> -->
 
 
                         <div class="nav-item dropdown">
                             <a href="partenaire.php" class="nav-link dropdown-toggle" data-toggle="dropdown">Plus</a>
                             <div class="dropdown-menu">
                                 <a href="partenaire.php" class="dropdown-item">Nos Partenaires</a>
-                                <a href="donate.php" class="dropdown-item">Faire un don</a>
+                                <a href="art.php" class="dropdown-item">Ateliers artistiques</a>
                                 <a href="volunteer.php" class="dropdown-item">Devenir volontaire</a>
+                                <a href="galerie.php" class="dropdown-item">Galerie</a>
                                 <a href="conseil.php" class="dropdown-item">Conseils</a>
                             </div>
                         </div>

@@ -59,3 +59,9 @@
             background: #6eb1ff;
         }
         
+        @media (max-width: 768px) {
+  .realisation-item {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+  }
+}

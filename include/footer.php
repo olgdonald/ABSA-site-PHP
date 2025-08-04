@@ -6,7 +6,7 @@
                 <div class="footer-contact">
                     <h2>Notre Siège Social</h2>
                     <p><i class="fa fa-map-marker-alt"></i>Yaoundé, Cameroun</p>
-                    <p><i class="fa fa-phone-alt"></i>+237 6 77 69 26 90</p>
+                    <p><i class="fa fa-phone-alt"></i>+237 6 77 69 26 90 \ 6 57 91 07 16</p>
                     <p><i class="fa fa-envelope"></i>abpepba@yahoo.fr</p>
                     <div class="footer-social">
                         <a class="btn btn-custom" href="#"><i class="fab fa-twitter"></i></a>

@@ -49,7 +49,7 @@
         <div class="contact-box py-4 px-3">
           <i class="fas fa-phone fa-2x text-info mb-2 icon-custom"></i>
           <h4 class="mt-2 text-dark">Téléphone</h4>
-          <p class="text-muted">+237 6 77 69 26 90</p>
+          <p class="text-muted">+237 6 77 69 26 90 \ 6 57 91 07 16</p>
         </div>
       </div>
   

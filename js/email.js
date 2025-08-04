@@ -48,7 +48,9 @@ function sendMail(formId, event) {
             from_email: getValueOrDefault("donate_email"),
             from_number: getValueOrDefault("donate_numero"),
             from_plus: getValueOrDefault("donate_montant"),
-            message: "Don"
+            from_date: getValueOrDefault("donate_date"),
+            from_reference: getValueOrDefault("donate_reference"),
+            message: getValueOrDefault("donate_methode"),
         };
     } else if (formType === "volontaire") {
         parms = {
@@ -57,7 +59,9 @@ function sendMail(formId, event) {
             from_email: getValueOrDefault("volontaire_email"),
             from_number: getValueOrDefault("volontaire_numero"),
             from_plus: "RAS",
-            message: getValueOrDefault("volontaire_message")
+            message: getValueOrDefault("volontaire_message"),
+            from_date: "RAS",
+            from_référence: "RAS",
         };
     } else if (formType === "contact") {
         parms = {
@@ -66,22 +70,29 @@ function sendMail(formId, event) {
             from_email: getValueOrDefault("email"),
             from_number: getValueOrDefault("numero"),
             from_plus: "RAS",
-            message: getValueOrDefault("message")
+            message: getValueOrDefault("message"),
+            from_date: "RAS",
+            from_référence: "RAS",
         };
     }
 
     // Envoyer l'email via EmailJS
-    emailjs.send("service_ujxz31r", "template_e0i8qbn", parms)
+    emailjs.send("service_ujxz31r", "template_kp0rgx8", parms)
         .then(function(response) {
             Swal.fire({
                 title: formType === "donation" ? "Vos informations ont bien été transférées !" : "Votre message a bien été envoyé !",
+                // html: formType === "donation" ? `
+                //     Vous pouvez faire un don sur les numéros suivants :<br>
+                //     <strong>Orange Money:</strong> 688994455<br>
+                //     <strong>MTN Money:</strong> 677559944<br><br>
+                //     Nous vous contacterons pour confirmer votre don via le numéro que vous avez renseigné.<br><br>
+                //     <strong>PS :</strong> Si vous avez entré de mauvaises informations, appuyez sur "OKAY" et remplissez à nouveau le formulaire avant d'envoyer votre argent.
+                // ` : "Nous vous contacterons le plus tôt possible par les informations que vous avez entrées.",
+                // icon: "success",
+                // confirmButtonText: "OKAY"
                 html: formType === "donation" ? `
-                    Vous pouvez faire un don sur les numéros suivants :<br>
-                    <strong>Orange Money:</strong> 688994455<br>
-                    <strong>MTN Money:</strong> 677559944<br><br>
                     Nous vous contacterons pour confirmer votre don via le numéro que vous avez renseigné.<br><br>
-                    <strong>PS :</strong> Si vous avez entré de mauvaises informations, appuyez sur "OKAY" et remplissez à nouveau le formulaire avant d'envoyer votre argent.
-                ` : "Nous vous contacterons le plus tôt possible par les informations que vous avez entrées.",
+                ` : "Une facture vous sera envoyé apres la confirmation du don",
                 icon: "success",
                 confirmButtonText: "OKAY"
             });

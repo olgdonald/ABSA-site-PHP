@@ -22,6 +22,7 @@
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 .btn-see-more:hover  {
@@ -1028,6 +1029,7 @@ a:focus {
     background: none;
     border-radius: 0;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
+    color: rgba(0, 0, 0, 0.53);
     transition: none;
 }
 
@@ -1176,15 +1178,18 @@ a:focus {
     border-radius: 0;
     border: 1px solid #ffffff;
     background: transparent;
+    font-weight: bold;
 }
 
 .donate .donate-form .form-control::placeholder {
+    font-weight: bold;
     color: #ffffff;
     opacity: 1;
 }
 
 .donate .donate-form .form-control:-ms-input-placeholder,
 .donate .donate-form .form-control::-ms-input-placeholder {
+    font-weight: bold;
     color: #ffffff;
 }
 
@@ -1201,14 +1206,84 @@ a:focus {
     color: #ffffff;
     border: 1px solid #ffffff;
     box-shadow: inset 0 0 0 0 #ffffff;
+    font-weight: bold;
 }
 
 .donate .donate-form .btn.btn-custom:hover,
 .donate .donate-form .btn.btn-custom.active {
+    font-weight: bold;
     color: #e9e100;
     border: 1px solid #ffffff;
     box-shadow: inset 0 0 0 30px #ffffff;
 }
+
+
+.donate .transition-donate {
+    padding: 90px 50px;
+    background: #e9ba00;
+    display: flex;
+  flex-direction: column;   /* Alignement en colonne */
+  gap: 20px;                /* Espacement entre les éléments */
+  text-align: center;   
+  border: 1px solid #ecf0f1;
+}
+
+
+.donate .transition-donate h3,a {
+    color: white;  
+}
+
+.donate .transition-donate .control-group {
+    margin-bottom: 15px;
+}
+
+.donate .transition-donate .form-control {
+    height: 60px;
+    color: #ffffff;
+    padding: 0 15px;
+    border-radius: 0;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+
+.donate .transition-donate .form-control::placeholder {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.donate .transition-donate .form-control:-ms-input-placeholder,
+.donate .transition-donate .form-control::-ms-input-placeholder {
+    color: #ffffff;
+}
+
+.donate .transition-donate .btn-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.donate .transition-donate .btn.btn-custom {
+    padding: 15px 0;
+    width: 100%;
+    height: 60px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 0 0 #ffffff;
+    font-weight: bold;
+    
+}
+
+.donate .transition-donate .btn.btn-custom:hover,
+.donate .transition-donate .btn.btn-custom.active {
+    color: #e9e100;
+    border: 1px solid #ffffff;
+    box-shadow: inset 0 0 0 30px #ffffff;
+}
+
+.donate .transition-donate .btn.btn-custom:hover a {
+  color: #e9e100;           /* Couleur du texte du lien au survol */
+}
+
 
 
 
@@ -2060,6 +2135,7 @@ a:focus {
 .single .post-item .post-text a {
     font-size: 16px;
     font-weight: 600;
+    color: #3b3a3a;
 }
 
 .single .post-item .post-text a:hover {

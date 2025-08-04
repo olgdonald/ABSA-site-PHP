@@ -1,0 +1,81 @@
+.atelier-section {
+    padding: 60px 0;
+    background-color: #fff;
+    color: #1a1a1a;
+}
+
+.bg-light {
+    background-color: #f4f9ff !important;
+}
+
+.atelier-section h3 {
+    font-weight: 600;
+    color: #003366;
+    margin-bottom: 20px;
+}
+
+.atelier-section p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+}
+
+.atelier-img {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 51, 102, 0.1);
+    width: 100%;
+    height: auto;
+}
+
+.atelier-video {
+    margin-top: 20px;
+    width: 100%;
+    border: 2px solid #003366;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 767px) {
+    .atelier-section {
+        padding: 40px 20px;
+    }
+    .atelier-section h3 {
+        font-size: 22px;
+    }
+    .atelier-section p {
+        font-size: 15px;
+    }
+}
+
+.section-header h3 {
+    color: #003366;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.section-header p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+/* .atelier-video {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 2px solid #00336620;
+} */
+
+.atelier-video {
+    max-width: 100%;
+    max-height: 400px; /* ou 300px selon tes besoins */
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    border: 2px solid #00336620;
+    object-fit: cover; /* optionnel pour ajuster sans déformer */
+}
+
+.atelier-img {
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
